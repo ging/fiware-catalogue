@@ -1,0 +1,67 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+footer.footer {
+  border-top: 1px solid $brand-secundary;
+  font-size: 12px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 133px;
+  background-color: $white;
+  .region-footer{
+    border-top: 1px solid $brand-primary;
+    .block-menu{
+      border-top: 1px solid #F2E826;
+      padding-top: 15px;
+    }
+  }
+  a{
+    color: $brand-secundary;
+    text-decoration: none;
+  }
+  ul li{
+    display: inline-block;
+    margin-right: 15px;
+  }
+  ul.menu{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .container-fluid{
+    border-top: 1px solid yellow;
+    padding: 0;
+  }
+  .cred{
+    padding: 8px 0;
+    border-top: 1px solid $brand-primary;
+  }
+  .cred-left,
+  .cred-right{
+    @include make-sm-column(6, $gutter: $grid-gutter-width);
+    @include make-md-column(6, $gutter: $grid-gutter-width);
+    @include make-lg-column(6, $gutter: $grid-gutter-width);
+  }
+  .cred-left{
+    padding-top: 7px;
+  }
+  .cred-right img{
+    float: right;
+  }
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .wrap {
+  padding: 75px 15px 30px;
+  @media (max-width: $screen-sm-min){
+    padding: 52px 15px 30px;
+  }
+}

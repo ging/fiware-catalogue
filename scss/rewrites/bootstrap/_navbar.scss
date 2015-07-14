@@ -1,0 +1,78 @@
+.navbar-default {
+  @extend .navbar-fixed-top;
+  height: 60px;
+  .container{
+    box-shadow: none !important;
+  }
+  .navbar-collapse{
+    width: 100%;
+    background-color: $white;
+    float: left;
+    margin-top: 57px;
+    position: absolute;
+    left: 0;
+    @media (max-width: $screen-sm-min){
+      margin-top: 0;
+    }
+  }
+}
+
+.navbar-header {
+  width: 100%;
+  height: 57px;
+}
+.navbar-fixed-top{
+  padding: 0;
+}
+
+.navbar-search .search-query {
+  font-family: "Verdana", Arial, sans-serif;
+  color: #000000;
+  background-color: #FFFFFF;
+  border: 1px solid #f9f9f9;
+  line-height: 2;
+}
+
+
+.navbar .divider-vertical {
+  background-color: #f9f9f9;
+  border-right: 1px solid #f9f9f9;
+  border: none;
+}
+
+.navbar .btn-navbar .icon-bar {
+    background-color: #00D3DE;
+}
+.navbar-fixed-top, .navbar-default,
+.navbar-fixed-bottom {
+  z-index: 999999999;
+}
+.navbar-toggle {
+  padding: 9px 21px;
+  margin-top: 11px;
+  color: #DADADA;
+  &:hover{
+    color: #fff;
+  }
+}
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus {
+  color: #002d67;
+}
+
+.nav-collapse.collapse {
+  background-color: #F4F4F4;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color: #FFF;
+}
+
+.navbar-nav.navbar-right:last-child {
+  margin-right: $zero;
+}
+@media (min-width: 768px){
+.navbar-nav>li>a {
+  padding-top: 13px;
+  padding-bottom: 10px;
+}
+}

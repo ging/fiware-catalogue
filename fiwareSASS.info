@@ -1,0 +1,27 @@
+name = fiwareSASS
+description = A Kalatheme subtheme powered by Twitter Bootstrap & Compass.
+base theme = kalatheme
+version = 7.x-1.0
+core = 7.x
+
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[footer]         = 'Footer'
+
+scripts[] = js/search.js
+scripts[] = js/icons.js
+
+stylesheets[all][] = css/main.css
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+plugins[panels][layouts] = layouts

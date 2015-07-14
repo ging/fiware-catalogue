@@ -1,0 +1,21 @@
+.alert {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+	padding: 12px 3px 13px 7px;
+	font-size: 11px;
+    button.close{
+	  margin-top: -9px;
+    }
+}
+
+.alert > ul {
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+.alert-info {
+	background-color: #fff;
+	border-color: $brand-secundary;
+	color: $brand-primary;
+}

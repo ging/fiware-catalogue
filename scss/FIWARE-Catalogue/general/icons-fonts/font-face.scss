@@ -1,0 +1,22 @@
+/************* typography*******/
+
+@font-face {
+  font-family: "NeoTechRegular";
+  font-style: normal;
+  src: url('FIWARE-Catalogue/fonts/neotechstd/neotechstd-regular.eot');
+    src: url('FIWARE-Catalogue/fonts/neotechstd/neotechstd-regular.eot') format('embedded-opentype'),
+         url('FIWARE-Catalogue/fonts/neotechstd/neotechstd-regular.woff') format('woff'),
+         url('FIWARE-Catalogue/fonts/neotechstd/neotechstd-regular.ttf') format('truetype'),
+         url('FIWARE-Catalogue/fonts/neotechstd/neotechstd-regular.svg#NeoTechStdMedium') format('svg');
+}
+
+
+@font-face {
+  font-family: "NeoTechMedium";
+  font-style: normal;
+  src: url('FIWARE-Catalogue/fonts/neotechstd/neotechstd-medium.eot');
+    src: url('FIWARE-Catalogue/fonts/neotechstd/neotechstd-medium.eot') format('embedded-opentype'),
+         url('FIWARE-Catalogue/fonts/neotechstd/neotechstd-medium.woff') format('woff'),
+         url('FIWARE-Catalogue/fonts/neotechstd/neotechstd-medium.ttf') format('truetype'),
+         url('FIWARE-Catalogue/fonts/neotechstd/neotechstd-medium.svg#NeoTechStdMedium') format('svg');
+}
