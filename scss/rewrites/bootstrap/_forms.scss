@@ -1,0 +1,13 @@
+.form-control {
+  height: 34px;
+  padding: 8px 6px;
+  box-shadow: none;
+  background-color: #f1f1f2;
+  @include border-top-radius (0);
+  @include border-bottom-radius (0);
+  border: 1px solid #f1f1f2;
+}
+
+.form-control-feedback {
+top: 34px;
+}

@@ -1,0 +1,73 @@
+.panel-3col-labs .panel-col-last .panel-pane {
+    padding-bottom: 25px;
+}
+
+.panel-3col-labs .panel-col-first .panel-pane {
+    padding-bottom: 25px;
+}
+
+.panel-3col-labs { 
+/*  overflow: hidden;  */
+}
+
+.panel-3col-labs .panel-col-top,
+.panel-3col-labs .panel-col-bottom { 
+  width: 100%; 
+  clear: both;
+}
+
+.panel-3col-labs .panel-col-top .inside {
+  margin-bottom: .5em;
+}
+
+.panel-3col-labs .panel-col-first { 
+	overflow: hidden;
+    float: left;
+    width: 214px;
+    margin: 0 30px 0 0;
+    min-height: 400px;
+}
+
+.panel-3col-labs .panel-col .inside { 
+  margin: 0 .5em 1em .5em;
+}
+
+.panel-3col-labs .panel-col { 
+	overflow: hidden;
+}
+
+.panel-3col-labs .panel-col .inside { 
+  margin: 0 .5em 1em .5em;
+}
+
+.panel-3col-labs .panel-col-last { 
+    overflow: hidden;
+    float: right;
+    width: 260px;
+    margin: 0 0 0 30px;
+    min-height: 400px;
+}
+
+.panel-3col-labs .panel-col-last .inside { 
+	margin: 0;
+}
+
+.panel-3col-labs .panel-col-first .panel-separator,
+.panel-3col-labs .panel-col-last .panel-separator {
+    border-top: 6px solid #E2E2E2;
+    padding-top: 25px;
+}
+
+.panel-3col-labs .panel-col .panel-separator {
+}
+
+/* Smartphones and tablets in portrait */
+@media (max-width: 480px) {
+  .panel-3col-labs .panel-col-first { 
+    overflow: hidden;
+    float: none;
+    width: 214px;
+    margin: 0 30px 0 0;
+    min-height: 400px;
+  }
+}

@@ -1,0 +1,21 @@
+////////////////////////
+// Main file that pulls in everything from your project (except files in
+// specifics) and produces an aggregated CSS file.
+////////////////////////
+
+/****************************** Variables */
+@import "FIWARE-Catalogue/general/variables";
+
+/****************************** Bootstrap */
+@import "bootstrap/bootstrap";
+
+
+/****************************** Mixins */
+@import "FIWARE-Catalogue/general/mixins/mixins_call";
+
+/****************************** Rewrites */
+@import "rewrites/rewrites_call";
+
+
+/****************************** Base */
+@import "FIWARE-Catalogue/FIWARE-Catalogue_call";

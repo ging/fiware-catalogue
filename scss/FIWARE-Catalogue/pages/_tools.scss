@@ -1,0 +1,81 @@
+/****************************** TOOLS */
+
+.page-tools{
+	#main-wrapper {
+	  margin-top: 13px;
+	}
+	#main > #content{
+		.container-fluid{
+			padding: 0;
+		}
+	}
+	.form-item-search-block-form{
+		float: right;
+	}
+	#edit-actions{
+		display: none;
+	}
+	.view-content{
+		@include make-xs-column(12, $gutter: $grid-gutter-width);
+        @include make-sm-column(9, $gutter: $grid-gutter-width);
+        @include make-md-column(8, $gutter: $grid-gutter-width);
+        @include make-lg-column(8, $gutter: $grid-gutter-width);
+		padding-left: 0;
+		.views-row{
+			width: 100%;
+			display: block;
+			border-bottom: 1px solid #C2C2C2;
+            padding: 0 10px 18px;
+            h2{
+            	@extend h4;
+            }
+		}
+	}
+}
+
+
+.page-filter-tips{
+	#block-system-main{
+        @include make-md-column(12, $gutter: $grid-gutter-width);
+        .content{
+            @include make-xs-column(12, $gutter: $grid-gutter-width);
+	        @include make-sm-column(10, $gutter: $grid-gutter-width);
+	        @include make-md-column(10, $gutter: $grid-gutter-width);
+	        float: none !important;
+	        @extend .well;
+	        @include center-block;
+	        .form-item,
+	        .form-wrapper{
+	        	margin-bottom: 20px;
+	        	width: 100%;
+				clear: both;
+				padding: 0
+	        }
+	        h2{
+		        font-size: 17px;
+		        border-bottom: 1px solid $gray;
+		        margin-bottom: 20px;
+		    }
+		    .filter-type{
+		        margin-bottom: 30px;
+		        h3{
+		            color: $brand-secundary;
+		            margin-bottom: 4px;
+		            margin-top: 50px;
+		            &:first-child{
+		            	margin-top: 0;
+		            }
+		        }
+		    }
+		    .tips{
+		    	padding-left: 0;
+		    }
+		    table{
+		    	@extend .table-responsive;
+		    }
+		    
+        }
+	}
+}
+
+

@@ -1,0 +1,255 @@
+#frontpage, 
+#registration,
+#home{
+  .row{
+    @media (max-width: $screen-sm-min){
+      margin: 0px !important;
+      .help-box{
+        padding: 0 !important;
+      }
+    }
+  }
+}
+#top-content{
+  .container{
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    #tabs {
+      ul.nav.nav-pills{
+        border-bottom: 1px solid $gray-light;
+        padding: 10px;
+        width: 100%;
+        border-top: 1px solid $gray-light;
+      }
+    }
+  }
+}
+
+body.admin-menu {
+  margin-top: 0px !important;
+}
+
+h1#page-title{
+  display: none;
+}
+
+#messages{
+  position: absolute;
+  left: 0;
+  margin-top: 6px;
+  right: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: #FFF;
+}
+
+#block-system-main{
+  clear: both;
+  margin-top: 10px;
+}
+
+#search-block-form .container-inline{
+  margin-bottom: 20px;
+}
+
+.pagination-wrapper{
+  text-align: left;
+  clear: both;
+}
+.views-exposed-widget {
+  padding: 0 !important;
+}
+
+#block-workbench-block,
+#block-system-main{
+  clear: both;
+  width: 100%;
+  .workbench-info-block{
+    padding: 0.8em 1em;
+  }
+  .edit-submit{
+    margin-top: 5px;
+  }
+}
+
+#edit-field-so-name{
+  display: none;
+}
+
+.region-content .block-aggregator{
+  float: right;
+  padding: 8px 10px 4px;
+  margin-bottom: 15px;
+  margin-top: 0;
+  @extend .btn;
+  @extend .btn-default;
+  h2 a{
+    padding-right: 10px;
+    font-size: 17px;
+  }
+  div.content{
+    position: absolute;
+    z-index: 99;
+    background-color: #FFF;
+    width: 340px;
+    margin-left: -212px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    background-color: #EDEDED;
+    margin-top: 7px;
+    ul{
+      background-color: #EDEDED;
+      padding: 4px;
+      li {
+        padding: 6px 8px;
+        border-bottom: 1px solid #CCC;
+        margin: 0;
+        @include text-overflow;
+        &:hover{
+          background-color: $white;
+          cursor: pointer;
+          a{
+            color: $brand-secundary;
+          }
+        }
+      }
+    }
+    .more-link{
+      a{
+        @extend .btn;
+        @extend .btn-default;
+        float: right;
+        padding: 3px 10px;
+        margin-right: 5px;
+      }
+    }
+  }
+}
+.page-header{
+  .btn{
+    float: left;
+    margin-top: 2px;
+  }
+}
+
+.node-unpublished {
+  background-color: $white;
+}
+
+#page-wrapper {
+  @include make-sm-column(12, $gutter: $grid-gutter-width);
+  @include make-md-column(12, $gutter: $grid-gutter-width);
+  @include make-lg-column(12, $gutter: $grid-gutter-width);
+  margin-top: 85px;
+  padding-bottom: 133px;
+  @media (max-width: $screen-sm-min){
+    margin-top: 68px;
+    padding: 0 5px 133px;
+  }
+}
+
+#page{
+  max-width: 1200px;
+  @include center-block;
+  padding-bottom: 0px;
+}
+
+#main-wrapper{
+  margin-bottom: 0;
+}
+
+.admin-menu{
+  #main-wrapper{
+    margin-top: 13px;
+  }
+}
+
+#main{
+  background-color: $white;
+}
+#top-content{
+  margin-bottom: 0;
+}
+#tabs {
+  margin-bottom: 0px;
+}
+
+.view-content{
+  @include viewcontent;
+  .views-row{
+    @include viewsrow;
+  }
+}
+.collapse-processed .fieldset-wrapper {
+ margin-left: 0;
+}
+
+#top-content {
+  min-height: 33px;
+  .dropdown.actions{
+    .dropdown-menu li {
+      margin: 0;
+      padding: 0;
+      a{
+        background-color: #F1F1F2;
+        padding: 6px 0;
+        text-align: center;
+        &:hover{
+          background-color: #AFAFB5;
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+.fix-row{
+  margin: 0;
+}
+
+.select2-container {
+  width: 100% !important;
+  margin-bottom: 7px;
+}
+
+#secondary-menu-links{
+  @extend .dropdown-menu;
+  right: 0;
+  left: auto;
+  li{
+    float: none;
+  }
+}
+#secondary-menu-links.secondary-links{
+  @extend .dropdown-menu-right !optional;
+}
+
+.not-logged-in {
+  #page-wrapper{
+    margin-top: 81px;
+    @media (max-width: $screen-sm-min){
+      margin-top: 57px;
+      margin-bottom: 0;
+    }
+  }
+  #top-content{
+    min-height: 0;
+  }
+}
+.page-user-login{
+  #page-wrapper{
+    margin-top: 56px;
+    @media (max-width: $screen-sm-min){
+      margin-top: 8px;
+    }
+  }
+  #top-content{
+    display: block;
+  } 
+}
+
+
+#admin-menu, #admin-menu .dropdown {
+  z-index: 999999999;
+}
