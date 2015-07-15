@@ -19,6 +19,12 @@ $brand-info: #5bc0de;
 $brand-warning: #f0ad4e;
 $brand-danger: #d9534f;
 
+//## Generic enablers colors
+$greenGE: #8dec74;
+$yellowGE: #fad266;
+$redGE: #e34242;
+$grayGE: #ababab;
+
 $body-bg: $white;
 
 $text-color: #5B5B5F;
@@ -413,4 +419,3 @@ $well-border:                 1px solid $gray-lighter !default;
 $close-font-weight:           bold !default;
 $close-color:                 $brand-primary !default;
 $close-text-shadow:           transparent !default;
-

@@ -36,7 +36,7 @@
   border: 1px solid #C5C5C5;
   padding: 0 5px 3px;
   &:hover{
-    border: 1px solid #222222; 
+    border: 1px solid #222222;
     h2{
       color: $brand-secundary;
     }
@@ -69,12 +69,18 @@
         }
       }
     }
+
+    .fiware-ge-bg {background: $grayGE;}
+    .incubated-ge-bg {background: $yellowGE;}
+    .compliant-ge-bg {background: $greenGE;}
+    .archived-geis-bg {background-color: $redGE;}
+
     .field-type-text{
       height: 104px;
       overflow-x: hidden;
       overflow-y: scroll;
-      font-size: 12px; 
-      margin-top: 47px;   
+      font-size: 12px;
+      margin-top: 47px;
     }
     ul.links{
       li{
@@ -110,10 +116,10 @@
           }
         }
       }
-      ul.fiware-ge li{background: $brand-secundary;}
-      ul.incubated-ge li{background: rgb(152, 168, 178);}
-      ul.compliant-ge li{background: rgb(247, 163, 28);}
-      ul.archived-geis li{background-color: #E24068;}
+      ul.fiware-ge li{background: $grayGE;}
+      ul.incubated-ge li{background: $yellowGE;}
+      ul.compliant-ge li{background: $greenGE;}
+      ul.archived-geis li{background-color: $redGE;}
     }
   }
 }
