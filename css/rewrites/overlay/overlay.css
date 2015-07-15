@@ -1,0 +1,9 @@
+/* line 1, ../../../scss/rewrites/overlay/overlay.scss */
+.overlay-modal-background, .overlay-element {
+  margin-top: 33px;
+}
+
+/* line 4, ../../../scss/rewrites/overlay/overlay.scss */
+#overlay-container {
+  margin-top: 47px;
+}

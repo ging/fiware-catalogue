@@ -1,31 +1,31 @@
 hr{
-	margin-top: 15px;
-	margin-bottom: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 li{
-	list-style: none;
+  list-style: none;
 }
 
 
 .page-header h2 {
-	font-family: $corporate-font-family-sans-serif-Regular;
-	color: $brand-primary;
-	text-align: right;
+  font-family: $corporate-font-family-sans-serif-Regular;
+  color: $brand-primary;
+  text-align: right;
 }
 
 .page-header {
-	border: none;
-	margin: 3px 0 8px;
+  border: none;
+  margin: 3px 0 8px;
 }
 
 a{
   color: $brand-primary;
   text-decoration: none;
-	&:hover{
-	  color: $brand-secundary;
-	  text-decoration: none;
-	}
+  &:hover{
+    color: $brand-secundary;
+    text-decoration: none;
+  }
 }
 
 h1,
@@ -39,5 +39,5 @@ h6{
   margin: 1px $zero;
 }
 code{
-	white-space: normal;
+  white-space: normal;
 }

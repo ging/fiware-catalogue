@@ -29,10 +29,12 @@
 }
 
 #block-system-main{
-  width: 100%;
-  .profile dl {
-    position: absolute;
-    margin-left: 114px;
+  .profile{
+    margin: 0;
+    dl {
+      position: absolute;
+      margin-left: 122px;
+    }
   }
 }
 
@@ -60,8 +62,8 @@
     position: relative;
     .block-block{
       position: absolute;
-      margin-left: 113px;
-      margin-top: 5px;
+      margin-left: 121px;
+      margin-top: 25px;
     }
   }
 }
@@ -72,11 +74,9 @@
       float: left;
     }
     div.field-label-above{
-      position: absolute;
       width: 100%;
-      margin-bottom: 100px;
+      margin-bottom: 40px;
       float: left;
-      padding-top: 96px;
       .field-label{
         border-bottom: 1px solid #CCC;
         padding-bottom: 3px;
@@ -106,7 +106,7 @@
       font-size: 12px;
     }
     dl{
-      padding-top: 40px;
+      padding-top: 57px;
     }
   }
 }
@@ -119,5 +119,72 @@
 #edit-settings{
   .help-block{
     margin-bottom: 18px;
+  }
+}
+
+body.page-node{
+  .admin-list{ 
+    @include make-sm-column(9, $gutter: $grid-gutter-width);
+    @include make-md-column(8, $gutter: $grid-gutter-width);
+    @include make-lg-column(8, $gutter: $grid-gutter-width);
+    dt {
+      margin-top: 15px;
+      padding-top: 7px;
+      border-top: 1px solid #CCC;
+    }
+  }
+}
+body.page-group-node{
+  .radio + .radio, .checkbox + .checkbox {
+    margin-top: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    border-right: 1px solid rgba(0, 0, 0, 0);
+    border-left: 1px solid rgba(0, 0, 0, 0);
+  }
+  td.checkbox{
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    border-right: 1px solid rgba(0, 0, 0, 0);
+    border-left: 1px solid rgba(0, 0, 0, 0);
+    min-height: 50px;
+  }
+  .table-hover tbody tr:hover > td.checkbox {
+    background-color: transparent;
+  }
+}
+body.page-node-group{
+  table#permissions{
+    font-size: 0.923em;
+    margin: 0 0 10px;
+    border: 1px solid #BEBFB9;
+    @include make-sm-column(9, $gutter: $grid-gutter-width);
+    @include make-md-column(8, $gutter: $grid-gutter-width);
+    @include make-lg-column(8, $gutter: $grid-gutter-width);
+    margin: 0 auto;
+    th{
+      text-transform: uppercase;
+      background: #E1E2DC;
+      font-weight: normal;
+      border-width: 1px;
+      border-style: solid;
+      border-color: #BEBFB9;
+      padding: 3px 10px;
+    }
+  }
+
+  .table-hover tbody tr:hover > td, .table-hover tbody tr:hover > th {
+    background-color: transparent;
+    color: #FFF;
+  }
+
+  .table-striped tbody > tr:nth-child(odd) > td, .table-striped tbody > tr:nth-child(odd) > th {
+    background-color: #F3F4EE;
+  }
+}
+
+.table-striped{
+  td.checkbox,
+  th.checkbox{
+    width: 86px !important;
+    text-align: center !important;
   }
 }

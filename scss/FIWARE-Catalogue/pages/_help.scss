@@ -1,0 +1,187 @@
+.help-menus{
+  @include make-xs-column(12, $gutter: $grid-gutter-width);
+  margin-top: 15px;
+  padding: 0;
+  ul{
+    clear: both;
+    padding-left: 0;
+    float: left;
+    margin-bottom: 49px !important;
+    @media (max-width: 768px){
+      width: 100%;
+    }
+    h2{
+      font-weight: bold;
+      border-bottom: 8px solid $brand-secundary;
+      color: $brand-secundary;
+      padding-bottom: 7px;
+      text-transform: uppercase;
+    }
+    li{
+      list-style: none;
+      display: inline-block;
+      width: 150px;
+      float: left;
+      margin-top: 20px !important;
+      a{
+        display: block;
+        text-align: center;
+      }
+      img{
+        width: 72%;
+        display: block;
+        margin: 0 auto;
+      }
+      span{
+        text-transform: uppercase;
+        font-size: 10px;
+        color: $gray;
+        margin-top: 10px;
+        display: block
+      }
+      &:hover{
+        background-color: transparent;
+        span{
+          color: $gray-darker;
+        }
+      }
+      @media (max-width: 639px){
+        width: 40%;
+        margin: 30px 5% 0 !important;
+        img{
+          width: 60%;
+        }
+      }
+      @media (max-width: 480px){
+        width: 84%;
+        img{
+          width: 108px;
+        }
+      }
+    }
+  }
+}
+
+.help-back{
+  margin: 50px 0;
+  display: block;
+}
+
+
+p.corporate {
+  font-family: $corporate-font-family-sans-serif-Medium;
+  text-transform: uppercase;
+}
+
+
+.help-ge{
+  margin-top: 20px;
+  margin-bottom: 52px;
+  h2{
+    @include help-h2;
+    border-bottom: 8px solid $brand-secundary;
+    color: $brand-secundary;
+  }
+  h4{
+    font-family: $corporate-font-family-sans-serif-Regular;
+    color: #7B7B7B !important;
+    margin: 20px 0;
+    display: block;
+    text-transform: uppercase;
+    clear: both;
+    padding: 18px 0;
+    .small{
+      background-color: rgb(132, 132, 132);
+      font-size: 8px;
+      vertical-align: middle;
+      margin-left: 22px;
+      padding: 0px 44px;
+    }
+  }
+  p{
+    margin: 0 0 18px;
+    width: 85%;
+    @media (max-width: 639px){
+      width: 100%;
+    }
+  }
+  .geis-list{
+    position: relative;
+    margin-top: 20px;
+    .help-ge-logo{
+      position: absolute;
+      img{
+        width: 100px;
+        margin-top: 10px;
+        @media (max-width: 639px){
+          width: 100px;
+          margin: 0 auto;
+          left: 0;
+          right: 0;
+          position: absolute;
+        }
+      }
+      @media (max-width: 639px){
+        width: 100%;
+      }
+    }
+    .info{
+      margin-left: 120px;  
+      @media (max-width: 639px){
+        margin: 0;
+        padding-top: 110px;
+        h4{
+          text-align: center;
+          span{
+            display: none;
+          } 
+        }
+      }   
+    }
+    ol{
+      @media (max-width: 639px){
+        padding-left: 23px;
+      }
+    }
+    ul{
+      @media (max-width: 639px){
+        padding-left: 16px;
+      }
+      li{
+        margin: 30px 0
+      }
+    }
+    .img-ul{
+      margin: 6px 0 40px;
+    }
+    img + img{
+      margin: -10px 0 41px !important;
+    }
+    @media (max-width: 639px){
+      p{
+        text-align: center;
+      }
+    }
+  }
+  section{
+    margin-bottom: 40px;
+    &:first-child{
+      margin-top: 20px;
+    }
+  }
+  .img-help {
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    margin-top: 33px;
+    &:last-child{
+      margin-top: 33px;
+    } 
+  }
+  .img-p{
+    margin-bottom: 33px;
+  }
+  .img-ul {
+    margin-bottom: 33px;
+    margin-top: 15px;
+  }
+}

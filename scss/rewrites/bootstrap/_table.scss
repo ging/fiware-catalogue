@@ -1,8 +1,17 @@
 .table-striped tbody > tr:nth-child(odd) > td, .table-striped tbody > tr:nth-child(odd) > th {
-background-color: rgba(231, 231, 219, 0.13);
+  background-color: rgba(207, 222, 224, 0.13);
 }
 
 .table-hover tbody tr:hover > td, .table-hover tbody tr:hover > th {
 background-color: #00D3DE;
 color: #ffffff;
+}
+
+.table-hover tbody tr:hover > td a, .table-hover tbody tr:hover > th a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.table-hover tbody tr:hover > td a:hover, .table-hover tbody tr:hover > th a:hover {
+  color: $white;
 }

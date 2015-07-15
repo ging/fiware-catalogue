@@ -1,3 +1,4 @@
+
 @mixin viewsrow{
   position: relative;
   overflow: inherit;
@@ -92,6 +93,27 @@
           width: 100%;
         }
       }
+    }
+    .field-name-field-rank {
+      height: 0;
+      ul.links{
+        margin-top: 0;
+        li{
+          display: inline !important;
+          width: 98% !important;
+          color: #FFF;
+          font-size: 10px;
+          padding: 1px 4px 2px;
+          a{
+            color: #FFF;
+            width: 100%;
+          }
+        }
+      }
+      ul.fiware-ge li{background: $brand-secundary;}
+      ul.incubated-ge li{background: rgb(152, 168, 178);}
+      ul.compliant-ge li{background: rgb(247, 163, 28);}
+      ul.archived-geis li{background-color: #E24068;}
     }
   }
 }

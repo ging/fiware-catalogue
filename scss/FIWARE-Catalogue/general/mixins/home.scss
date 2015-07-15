@@ -1,0 +1,69 @@
+@mixin d-r_layout{
+  .p{
+    margin-bottom: 10px;
+  }
+  ul{
+    margin: 0; 
+    padding: 0;
+    li {
+      width: 33.3%;
+      float: left;
+      padding: 2%;
+      @include opacity (0.9);
+      &:hover{
+        @include opacity (1);
+      }
+      img{
+        @include img-responsive;
+        margin: 0 auto;
+        padding: 4px;
+        @media (max-width: $screen-sm-min){
+          width: 60%;
+        }
+        @media (max-width: 991px) and (min-width: 769px){
+          width: 190px;
+        }
+      }
+      h5{
+        font-weight: bold;
+        margin-top: 10px;
+        color: #000;
+        text-align: center;
+        font-family: $corporate-font-family-sans-serif-Medium;
+      }
+      p{
+        text-align: center;
+        color: #193B6B !important;
+        font-size: 12px;
+      }
+      @media (max-width: $screen-sm-min){
+        width: 43%;
+        float: none;
+        margin: 0 3%;
+        display: inline-block;
+      }
+      @media (max-width: $screen-xs-min){
+        width: 70%;
+        float: none;
+        margin: 15px 15% 15px !important;
+      }
+    }
+    li.energy{
+      margin-left: 17%;
+      @media (max-width: $screen-sm-min){
+        margin-left: 3%;
+      }
+      @media (max-width: $screen-xs-min){
+        margin-left: 15% !important;
+      }
+    }
+    li.cloud{
+      @media (max-width: $screen-sm-min){
+        margin: 0 28.5% 20px;
+      }
+      @media (max-width: $screen-xs-min){
+        margin: 0 15%;
+      }
+    }
+  }
+}

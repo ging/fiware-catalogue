@@ -1,29 +1,44 @@
-#frontpage, 
-#registration,
+#registration{
+  @include especial-row;
+}
 #home{
-  .row{
-    @media (max-width: $screen-sm-min){
-      margin: 0px !important;
-      .help-box{
-        padding: 0 !important;
-      }
-    }
+  @include especial-row;
+}
+#frontpage{
+  @include especial-row;
+}
+
+#top-content{
+  @include top-content;
+}
+
+.logged-in{
+  span h3.title{
+    display: none;
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    padding: 14px 0;
   }
 }
-#top-content{
-  .container{
-    margin: 0;
-    width: 100%;
-    padding: 0;
-    #tabs {
-      ul.nav.nav-pills{
-        border-bottom: 1px solid $gray-light;
-        padding: 10px;
-        width: 100%;
-        border-top: 1px solid $gray-light;
-      }
-    }
+.not-logged-in{
+  span h3.title{
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    padding: 14px 0;
   }
+}
+
+.logged-in.page-user{
+  h3.title{display:none;} 
+}
+.page-user-login{
+  h3.title{display:none;}
+}
+.not-logged-in.page-user{
+  h3.title{display:none;} 
+}
+.not-logged-in.page-home{
+  h3.title{display:none;} 
 }
 
 body.admin-menu {
@@ -35,18 +50,15 @@ h1#page-title{
 }
 
 #messages{
-  position: absolute;
-  left: 0;
-  margin-top: 6px;
-  right: 0;
-  width: 100%;
+  position: relative;
   z-index: 100;
   background-color: #FFF;
 }
 
 #block-system-main{
   clear: both;
-  margin-top: 10px;
+  margin-top: 0px;
+  padding-top: 5px;
 }
 
 #search-block-form .container-inline{
@@ -60,7 +72,13 @@ h1#page-title{
 .views-exposed-widget {
   padding: 0 !important;
 }
-
+#block-system-main{
+  width: 100%;
+  margin-top: 15px;
+  padding-top: 0;
+  clear: both;
+  float: left;
+}
 #block-workbench-block,
 #block-system-main{
   clear: both;
@@ -77,16 +95,35 @@ h1#page-title{
   display: none;
 }
 
+#tabs{
+  .btn-group{
+    .dropdown{
+      @extend .btn;
+      @extend .btn-default;
+    }
+  }
+}
+
 .region-content .block-aggregator{
   float: right;
-  padding: 8px 10px 4px;
-  margin-bottom: 15px;
+  padding: 7px 10px 8px;
   margin-top: 0;
+  max-height: 34px;
   @extend .btn;
   @extend .btn-default;
+  &:hover{
+    a{
+      color: $brand-primary;
+    }
+  }
+  @media (max-width: $screen-xs-min){
+    display: none;
+  }
   h2 a{
-    padding-right: 10px;
-    font-size: 17px;
+    padding-right: 14px;
+    font-size: 14px;
+    color: #8C8C8C;
+    font-family: "verdana", sans-serif !important;
   }
   div.content{
     position: absolute;
@@ -134,7 +171,8 @@ h1#page-title{
 }
 
 .node-unpublished {
-  background-color: $white;
+  border: 1px solid rgba(226, 64, 104, 0.82) !important;
+  background: rgba(226, 64, 104, 0.04);
 }
 
 #page-wrapper {
@@ -142,7 +180,7 @@ h1#page-title{
   @include make-md-column(12, $gutter: $grid-gutter-width);
   @include make-lg-column(12, $gutter: $grid-gutter-width);
   margin-top: 85px;
-  padding-bottom: 133px;
+  padding-bottom: 124px;
   @media (max-width: $screen-sm-min){
     margin-top: 68px;
     padding: 0 5px 133px;
@@ -157,12 +195,7 @@ h1#page-title{
 
 #main-wrapper{
   margin-bottom: 0;
-}
-
-.admin-menu{
-  #main-wrapper{
-    margin-top: 13px;
-  }
+  margin-top: 16px;
 }
 
 #main{
@@ -191,14 +224,19 @@ h1#page-title{
     .dropdown-menu li {
       margin: 0;
       padding: 0;
+      float: none;
       a{
         background-color: #F1F1F2;
         padding: 6px 0;
         text-align: center;
         &:hover{
           background-color: #AFAFB5;
-          color: $white;
+          color: $white !important;
         }
+      }
+      &:hover{
+        background-color: #AFAFB5 !important;
+        color: $white !important;
       }
     }
   }
@@ -227,7 +265,7 @@ h1#page-title{
 
 .not-logged-in {
   #page-wrapper{
-    margin-top: 81px;
+    margin-top: 84px;
     @media (max-width: $screen-sm-min){
       margin-top: 57px;
       margin-bottom: 0;
@@ -240,6 +278,7 @@ h1#page-title{
 .page-user-login{
   #page-wrapper{
     margin-top: 56px;
+    padding: 0 5px 133px;
     @media (max-width: $screen-sm-min){
       margin-top: 8px;
     }
@@ -252,4 +291,53 @@ h1#page-title{
 
 #admin-menu, #admin-menu .dropdown {
   z-index: 999999999;
+}
+
+#tabs h3.title{
+  float: left;
+  padding: 6px 0;
+  margin: 0;
+  min-height: 34px;
+  width: auto;
+  overflow: visible;
+  text-overflow: initial;
+  white-space: normal;
+}
+
+.node-promoted {
+  .submitted {
+    padding: 0px 30px 0px;
+    width: 70%;
+    margin: 19px auto -1px;
+    font-size: 12px;
+    text-align: right;
+    display: none;
+    span{
+      font-family: monospace;
+      padding-top: 13px;
+      display: block;
+    }
+  }
+}
+
+.page-node-edit{
+  @include modal-simulation;
+}
+
+.views-exposed-widget{
+  margin-right: 16px;
+}
+.views-exposed-form .views-exposed-widget .form-submit {
+  margin-top: 1.45em;
+}
+
+
+#views_infinite_scroll-ajax-loader {
+  margin-bottom: 33px;
+}
+
+.pane-content{
+  @media (max-width: $screen-sm-min){
+    padding: 0 10px;
+  }
 }

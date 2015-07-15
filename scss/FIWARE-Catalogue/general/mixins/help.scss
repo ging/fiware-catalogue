@@ -1,0 +1,10 @@
+@mixin help-h2{
+  text-transform: uppercase;
+  font-family: $corporate-font-family-sans-serif-Medium;
+  width: 425px;
+  padding-bottom: 4px;
+  display: block;
+  @media (max-width: 478px){
+    width: 100%;
+  }
+}

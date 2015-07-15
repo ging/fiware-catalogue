@@ -39,29 +39,47 @@ footer.footer {
   .cred{
     padding: 8px 0;
     border-top: 1px solid $brand-primary;
-  }
-  .cred-left,
-  .cred-right{
-    @include make-sm-column(6, $gutter: $grid-gutter-width);
-    @include make-md-column(6, $gutter: $grid-gutter-width);
-    @include make-lg-column(6, $gutter: $grid-gutter-width);
+    span{
+      width: auto;
+      margin: 0 auto;
+      display: block;
+      @media (min-width: $screen-lg-min){
+        width: 1200px;
+      }
+    }
   }
   .cred-left{
-    padding-top: 7px;
+    @include make-sm-column(8, $gutter: $grid-gutter-width);
+    @include make-md-column(8, $gutter: $grid-gutter-width);
+    @include make-lg-column(8, $gutter: $grid-gutter-width);
+    padding-top: 8px;
+    line-height: 19px;
+    a{
+      &:first-child{
+        margin-top: -10px;
+      }
+    }
   }
-  .cred-right img{
-    float: right;
+  .cred-right{
+    @include make-sm-column(4, $gutter: $grid-gutter-width);
+    @include make-md-column(4, $gutter: $grid-gutter-width);
+    @include make-lg-column(4, $gutter: $grid-gutter-width);
+    img{
+      float: right;
+    }
   }
 }
-
-
-/* Custom page CSS
--------------------------------------------------- */
-/* Not required for template or sticky footer method. */
 
 body > .wrap {
   padding: 75px 15px 30px;
   @media (max-width: $screen-sm-min){
     padding: 52px 15px 30px;
+  }
+}
+
+
+#catalogue {
+  .row.sub-footer{
+    @include footer-home;
   }
 }

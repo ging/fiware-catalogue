@@ -1,0 +1,79 @@
+@mixin modal-simulation{
+  #block-system-main{
+    @include make-md-column(12, $gutter: $grid-gutter-width);
+    .content{
+      @include make-xs-column(12, $gutter: $grid-gutter-width);
+      @include make-sm-column(10, $gutter: $grid-gutter-width);
+      @include make-md-column(7, $gutter: $grid-gutter-width);
+      float: none !important;
+      @extend .well;
+      @include center-block;
+      .form-item,
+      .form-wrapper{
+        margin-bottom: 20px;
+        width: 100%;
+        clear: both;
+        padding: 0
+      }
+      .filter-guidelines-processed{
+        margin-top: 0;
+        margin-bottom: 4px;
+      }
+      .vertical-tabs{
+        clear: both;
+      }
+    }
+  }
+  .image-widget-data,
+  .form-type-managed-file{
+    input {
+      &[type="file"]{
+        margin-top: 8px;
+        margin-bottom: 4px;
+      }
+    }
+  }
+  ul.tips{
+    padding-left: 0px;
+    li{
+      margin-bottom: 10px;
+    }
+  }
+  .panel-default > .panel-heading a {
+    width: 100%;
+    float: left;
+  }
+  fieldset.collapsible .fieldset-legend {
+    background: none !important;
+    padding-left: 0px !important;
+    max-height: 20px;
+  }
+    fieldset.collapsed .fieldset-legend {
+    background-image: none;
+  }
+  .collapsed{
+    margin-bottom: 4px !important;
+  }
+  #edit-group-group{
+    float: left;
+    margin-bottom: 0 !important;
+    .form-item{
+            margin-bottom: 12px !important;
+      margin-top: 7px;
+    }
+  }
+  .form-actions{
+    float: none !important;
+    clear: both;
+    min-height: 8px;
+    .btn{
+      float: right;
+    }
+  }
+  .vertical-tabs fieldset.vertical-tabs-pane {
+        padding: 0 !important;
+    }
+    #edit-revision-information{
+    clear: none !important;
+  }
+}

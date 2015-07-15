@@ -1,19 +1,9 @@
 /****************************** TOOLS */
 
 .page-tools{
-	#main-wrapper {
-	  margin-top: 13px;
-	}
-	#main > #content{
-		.container-fluid{
-			padding: 0;
-		}
-	}
-	.form-item-search-block-form{
+  @include layout-adjust;
+  .form-item-search-block-form{
 		float: right;
-	}
-	#edit-actions{
-		display: none;
 	}
 	.view-content{
 		@include make-xs-column(12, $gutter: $grid-gutter-width);
@@ -33,6 +23,9 @@
 	}
 }
 
+.page-tools-add-tool-link{
+  @include modal-simulation;
+}
 
 .page-filter-tips{
 	#block-system-main{
