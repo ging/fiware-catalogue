@@ -1,3 +1,7 @@
+a:focus{
+  outline: none;
+}
+
 #registration{
   @include especial-row;
 }
@@ -29,16 +33,16 @@
 }
 
 .logged-in.page-user{
-  h3.title{display:none;} 
+  h3.title{display:none;}
 }
 .page-user-login{
   h3.title{display:none;}
 }
 .not-logged-in.page-user{
-  h3.title{display:none;} 
+  h3.title{display:none;}
 }
 .not-logged-in.page-home{
-  h3.title{display:none;} 
+  h3.title{display:none;}
 }
 
 body.admin-menu {
@@ -285,7 +289,7 @@ h1#page-title{
   }
   #top-content{
     display: block;
-  } 
+  }
 }
 
 

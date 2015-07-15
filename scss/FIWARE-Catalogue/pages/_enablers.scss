@@ -1,5 +1,8 @@
 /****************************** ENABLERS */
-
+#block-block-4{
+  float: right;
+  margin-right: 10px;
+}
 article.node-enabler{
   @include enabler-bundle;
 }

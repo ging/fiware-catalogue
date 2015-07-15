@@ -3160,8 +3160,8 @@ input[type="button"].btn-block {
 
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url(twbs-font-path("bootstrap/glyphicons-halflings-regular.eot"));
-  src: url(twbs-font-path("bootstrap/glyphicons-halflings-regular.eot?#iefix")) format("embedded-opentype"), url(twbs-font-path("bootstrap/glyphicons-halflings-regular.woff")) format("woff"), url(twbs-font-path("bootstrap/glyphicons-halflings-regular.ttf")) format("truetype"), url(twbs-font-path("bootstrap/glyphicons-halflings-regular.svg#glyphicons-halflingsregular")) format("svg");
+  src: url("/fonts/bootstrap/glyphicons-halflings-regular.eot");
+  src: url("/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("/fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("/fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons-halflingsregular") format("svg");
 }
 /* line 21, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon {
@@ -8764,24 +8764,25 @@ header.navbar-default {
 header.navbar-default .container-fluid {
   max-width: 1200px;
   padding: 0;
+  height: 100%;
 }
-/* line 24, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
+/* line 25, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
 header.navbar-default .container {
   width: 100%;
 }
 @media (max-width: 768px) {
-  /* line 24, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
+  /* line 25, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
   header.navbar-default .container {
     max-height: 60px;
   }
 }
-/* line 29, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
+/* line 30, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
 header.navbar-default .container .dropdown {
   float: right;
   margin-top: 15px;
 }
 @media (max-width: 768px) {
-  /* line 29, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
+  /* line 30, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
   header.navbar-default .container .dropdown {
     margin-bottom: 15px;
     margin-top: 2px;
@@ -8789,62 +8790,62 @@ header.navbar-default .container .dropdown {
   }
 }
 
-/* line 41, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
+/* line 42, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
 .help-header {
   float: right;
   padding: 13px 20px 0 0;
 }
-/* line 44, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
+/* line 45, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
 .help-header a i {
   font-size: 14px;
   padding-top: 4px;
 }
 @media (max-width: 480px) {
-  /* line 41, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
+  /* line 42, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
   .help-header {
     padding: 0px 20px 24px 15px;
     float: left;
   }
 }
 
-/* line 54, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
+/* line 55, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
 .navbar-collapse > .dropdown {
   float: right;
   margin-right: 30px;
   padding-top: 13px;
 }
 @media (max-width: 768px) {
-  /* line 54, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
+  /* line 55, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
   .navbar-collapse > .dropdown {
     float: none;
     margin-right: 0px;
     padding-top: 0px;
   }
-  /* line 63, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
+  /* line 64, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
   .navbar-collapse > .dropdown a {
     text-decoration: none;
     padding-left: 15px;
   }
 }
 
-/* line 69, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
+/* line 70, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
 #secondary-menu-links {
   float: none;
 }
 
-/* line 73, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
+/* line 74, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
 .pattern {
   position: absolute;
   right: 0;
 }
 @media (max-width: 480px) {
-  /* line 73, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
+  /* line 74, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
   .pattern {
     right: -225px;
   }
 }
 
-/* line 81, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
+/* line 82, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
 .fiware-logo {
   margin-left: 0px;
   margin-left: 0px;
@@ -8852,71 +8853,76 @@ header.navbar-default .container .dropdown {
   width: 158px !important;
 }
 
-/* line 88, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
+/* line 89, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
 .logo-header .brand {
   margin: 0 0 0 -8px !important;
   padding: 0 !important;
 }
 
-/* line 95, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
+/* line 96, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
 .nav > li > a.first {
   padding-left: 0;
 }
 
-/* line 105, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
+/* line 106, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
 .nav-tabs > .active > a, .nav-tabs > .active > a:hover {
   color: #59c0d2;
   background-color: #FFF;
 }
 
-/* line 110, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
+/* line 111, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
 #user_info {
   display: inline;
 }
 
-/* line 114, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
+/* line 115, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
 #profile_editor_switcher {
   margin-top: 7px;
 }
-/* line 116, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
+/* line 117, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
 #profile_editor_switcher a img {
   width: 24px;
 }
 
 @media (max-width: 767px) {
-  /* line 123, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
+  /* line 124, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
   header .navbar ul.nav {
     margin-top: 0px;
   }
 
-  /* line 127, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
+  /* line 128, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
   .logo-header {
     width: 152px !important;
   }
 
-  /* line 131, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
+  /* line 132, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
   .brand {
     padding: 0px 4px 0 0px !important;
     float: left !important;
   }
 
-  /* line 136, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
+  /* line 137, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
   .dropdown i {
     margin-left: 2px;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 144, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
+  /* line 145, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
   header.navbar ul {
     margin-top: 0px;
   }
 
-  /* line 148, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
+  /* line 149, ../scss/FIWARE-Catalogue/general/layouts/_header.scss */
   .brand {
     padding: 0px 4px 0 0px !important;
     float: left !important;
   }
 }
+/* line 1, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+a:focus {
+  outline: none;
+}
+
 @media (max-width: 768px) {
   /* line 70, ../scss/FIWARE-Catalogue/general/mixins/pages.scss */
   #registration .row {
@@ -8986,7 +8992,7 @@ header.navbar-default .container .dropdown {
   color: #fff;
 }
 
-/* line 16, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 20, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 .logged-in span h3.title {
   display: none;
   border-top: 1px solid #CCC;
@@ -8994,74 +9000,74 @@ header.navbar-default .container .dropdown {
   padding: 14px 0;
 }
 
-/* line 24, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 28, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 .not-logged-in span h3.title {
   border-top: 1px solid #CCC;
   border-bottom: 1px solid #CCC;
   padding: 14px 0;
 }
 
-/* line 32, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 36, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 .logged-in.page-user h3.title {
   display: none;
 }
 
-/* line 35, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 39, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 .page-user-login h3.title {
   display: none;
 }
 
-/* line 38, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 42, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 .not-logged-in.page-user h3.title {
   display: none;
 }
 
-/* line 41, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 45, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 .not-logged-in.page-home h3.title {
   display: none;
 }
 
-/* line 44, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 48, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 body.admin-menu {
   margin-top: 0px !important;
 }
 
-/* line 48, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 52, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 h1#page-title {
   display: none;
 }
 
-/* line 52, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 56, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 #messages {
   position: relative;
   z-index: 100;
   background-color: #FFF;
 }
 
-/* line 58, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 62, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 #block-system-main {
   clear: both;
   margin-top: 0px;
   padding-top: 5px;
 }
 
-/* line 64, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 68, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 #search-block-form .container-inline {
   margin-bottom: 20px;
 }
 
-/* line 68, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 72, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 .pagination-wrapper {
   text-align: left;
   clear: both;
 }
 
-/* line 72, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 76, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 .views-exposed-widget {
   padding: 0 !important;
 }
 
-/* line 75, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 79, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 #block-system-main {
   width: 100%;
   margin-top: 15px;
@@ -9070,53 +9076,53 @@ h1#page-title {
   float: left;
 }
 
-/* line 82, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 86, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 #block-workbench-block,
 #block-system-main {
   clear: both;
   width: 100%;
 }
-/* line 86, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 90, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 #block-workbench-block .workbench-info-block,
 #block-system-main .workbench-info-block {
   padding: 0.8em 1em;
 }
-/* line 89, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 93, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 #block-workbench-block .edit-submit,
 #block-system-main .edit-submit {
   margin-top: 5px;
 }
 
-/* line 94, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 98, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 #edit-field-so-name {
   display: none;
 }
 
-/* line 107, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 111, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 .region-content .block-aggregator {
   float: right;
   padding: 7px 10px 8px;
   margin-top: 0;
   max-height: 34px;
 }
-/* line 115, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 119, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 .region-content .block-aggregator:hover a {
   color: #193B6B;
 }
 @media (max-width: 480px) {
-  /* line 107, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+  /* line 111, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
   .region-content .block-aggregator {
     display: none;
   }
 }
-/* line 122, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 126, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 .region-content .block-aggregator h2 a {
   padding-right: 14px;
   font-size: 14px;
   color: #8C8C8C;
   font-family: "verdana", sans-serif !important;
 }
-/* line 128, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 132, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 .region-content .block-aggregator div.content {
   position: absolute;
   z-index: 99;
@@ -9128,12 +9134,12 @@ h1#page-title {
   background-color: #EDEDED;
   margin-top: 7px;
 }
-/* line 138, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 142, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 .region-content .block-aggregator div.content ul {
   background-color: #EDEDED;
   padding: 4px;
 }
-/* line 141, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 145, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 .region-content .block-aggregator div.content ul li {
   padding: 6px 8px;
   border-bottom: 1px solid #CCC;
@@ -9142,36 +9148,36 @@ h1#page-title {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-/* line 146, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 150, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 .region-content .block-aggregator div.content ul li:hover {
   background-color: #fff;
   cursor: pointer;
 }
-/* line 149, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 153, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 .region-content .block-aggregator div.content ul li:hover a {
   color: #59c0d2;
 }
-/* line 156, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 160, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 .region-content .block-aggregator div.content .more-link a {
   float: right;
   padding: 3px 10px;
   margin-right: 5px;
 }
 
-/* line 167, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 171, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 .page-header .btn, .page-header #tabs .btn-group .dropdown, #tabs .btn-group .page-header .dropdown, .page-header .region-content .block-aggregator, .region-content .page-header .block-aggregator, .page-header .region-content .block-aggregator div.content .more-link a, .region-content .block-aggregator div.content .more-link .page-header a, .page-header .views-field-field-feedback,
 .page-header .views-field-field-stack-overflow {
   float: left;
   margin-top: 2px;
 }
 
-/* line 173, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 177, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 .node-unpublished {
   border: 1px solid rgba(226, 64, 104, 0.82) !important;
   background: rgba(226, 64, 104, 0.04);
 }
 
-/* line 178, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 182, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 #page-wrapper {
   position: relative;
   min-height: 1px;
@@ -9189,35 +9195,35 @@ h1#page-title {
   padding-bottom: 124px;
 }
 @media (min-width: 768px) {
-  /* line 178, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+  /* line 182, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
   #page-wrapper {
     float: left;
     width: 100%;
   }
 }
 @media (min-width: 992px) {
-  /* line 178, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+  /* line 182, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
   #page-wrapper {
     float: left;
     width: 100%;
   }
 }
 @media (min-width: 1200px) {
-  /* line 178, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+  /* line 182, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
   #page-wrapper {
     float: left;
     width: 100%;
   }
 }
 @media (max-width: 768px) {
-  /* line 178, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+  /* line 182, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
   #page-wrapper {
     margin-top: 68px;
     padding: 0 5px 133px;
   }
 }
 
-/* line 190, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 194, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 #page {
   max-width: 1200px;
   display: block;
@@ -9226,28 +9232,28 @@ h1#page-title {
   padding-bottom: 0px;
 }
 
-/* line 196, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 200, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 #main-wrapper {
   margin-bottom: 0;
   margin-top: 16px;
 }
 
-/* line 201, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 205, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 #main {
   background-color: #fff;
 }
 
-/* line 204, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 208, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 #top-content {
   margin-bottom: 0;
 }
 
-/* line 207, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 211, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 #tabs {
   margin-bottom: 0px;
 }
 
-/* line 211, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 215, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 .view-content {
   margin-bottom: 10px;
   padding: 0;
@@ -9256,7 +9262,7 @@ h1#page-title {
   margin-right: auto;
 }
 @media (max-width: 767px) {
-  /* line 211, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+  /* line 215, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
   .view-content {
     padding: 0;
   }
@@ -9295,132 +9301,132 @@ h1#page-title {
     margin: 0 0.7% 16px;
   }
 }
-/* line 213, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 217, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 .view-content .views-row {
   position: relative;
   overflow: inherit;
   float: left;
 }
 @media (max-width: 480px) {
-  /* line 213, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+  /* line 217, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
   .view-content .views-row {
     width: 100%;
     margin: 0 0 16px 0;
   }
 }
 @media (min-width: 481px) and (max-width: 767px) {
-  /* line 213, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+  /* line 217, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
   .view-content .views-row {
     width: 31%;
     margin: 0 1.16% 16px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 213, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+  /* line 217, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
   .view-content .views-row {
     width: 23%;
     margin: 0 1% 16px;
   }
 }
 @media (min-width: 992px) {
-  /* line 213, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+  /* line 217, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
   .view-content .views-row {
     width: 18.6%;
     margin: 0 0.7% 16px;
   }
 }
 
-/* line 217, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 221, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 .collapse-processed .fieldset-wrapper {
   margin-left: 0;
 }
 
-/* line 221, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 225, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 #top-content {
   min-height: 33px;
 }
-/* line 224, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 228, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 #top-content .dropdown.actions .dropdown-menu li, #top-content .dropdown.actions #secondary-menu-links li {
   margin: 0;
   padding: 0;
   float: none;
 }
-/* line 228, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 232, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 #top-content .dropdown.actions .dropdown-menu li a, #top-content .dropdown.actions #secondary-menu-links li a {
   background-color: #F1F1F2;
   padding: 6px 0;
   text-align: center;
 }
-/* line 232, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 236, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 #top-content .dropdown.actions .dropdown-menu li a:hover, #top-content .dropdown.actions #secondary-menu-links li a:hover {
   background-color: #AFAFB5;
   color: #fff !important;
 }
-/* line 237, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 241, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 #top-content .dropdown.actions .dropdown-menu li:hover, #top-content .dropdown.actions #secondary-menu-links li:hover {
   background-color: #AFAFB5 !important;
   color: #fff !important;
 }
 
-/* line 245, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 249, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 .fix-row {
   margin: 0;
 }
 
-/* line 249, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 253, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 .select2-container {
   width: 100% !important;
   margin-bottom: 7px;
 }
 
-/* line 254, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 258, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 #secondary-menu-links {
   right: 0;
   left: auto;
 }
-/* line 258, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 262, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 #secondary-menu-links li {
   float: none;
 }
 
-/* line 267, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 271, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 .not-logged-in #page-wrapper {
   margin-top: 84px;
 }
 @media (max-width: 768px) {
-  /* line 267, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+  /* line 271, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
   .not-logged-in #page-wrapper {
     margin-top: 57px;
     margin-bottom: 0;
   }
 }
-/* line 274, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 278, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 .not-logged-in #top-content {
   min-height: 0;
 }
 
-/* line 279, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 283, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 .page-user-login #page-wrapper {
   margin-top: 56px;
   padding: 0 5px 133px;
 }
 @media (max-width: 768px) {
-  /* line 279, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+  /* line 283, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
   .page-user-login #page-wrapper {
     margin-top: 8px;
   }
 }
-/* line 286, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 290, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 .page-user-login #top-content {
   display: block;
 }
 
-/* line 292, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 296, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 #admin-menu, #admin-menu .dropdown {
   z-index: 999999999;
 }
 
-/* line 296, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 300, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 #tabs h3.title {
   float: left;
   padding: 6px 0;
@@ -9432,7 +9438,7 @@ h1#page-title {
   white-space: normal;
 }
 
-/* line 308, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 312, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 .node-promoted .submitted {
   padding: 0px 30px 0px;
   width: 70%;
@@ -9441,7 +9447,7 @@ h1#page-title {
   text-align: right;
   display: none;
 }
-/* line 315, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 319, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 .node-promoted .submitted span {
   font-family: monospace;
   padding-top: 13px;
@@ -9577,23 +9583,23 @@ h1#page-title {
   clear: none !important;
 }
 
-/* line 327, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 331, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 .views-exposed-widget {
   margin-right: 16px;
 }
 
-/* line 330, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 334, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 .views-exposed-form .views-exposed-widget .form-submit {
   margin-top: 1.45em;
 }
 
-/* line 335, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+/* line 339, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 #views_infinite_scroll-ajax-loader {
   margin-bottom: 33px;
 }
 
 @media (max-width: 768px) {
-  /* line 339, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
+  /* line 343, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
   .pane-content {
     padding: 0 10px;
   }
@@ -13743,7 +13749,13 @@ form#og-ui-add-users {
 }
 
 /****************************** ENABLERS */
-/* line 3, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
+/* line 2, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
+#block-block-4 {
+  float: right;
+  margin-right: 10px;
+}
+
+/* line 6, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
 article.node-enabler {
   border: 1px solid #C5C5C5;
   padding: 0 5px 3px;
@@ -13854,7 +13866,7 @@ article.node-enabler .content .field-name-field-rank ul.archived-geis li {
   background-color: #E24068;
 }
 
-/* line 7, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
+/* line 10, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
 article.node-bundle {
   border: 1px solid #C5C5C5;
   padding: 0 5px 3px;
@@ -14042,91 +14054,91 @@ article.node-bundle .content .field-name-field-rank ul.archived-geis li {
 .page-taxonomy #main > #content .views-exposed-widgets {
   margin-bottom: 0;
 }
-/* line 21, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
+/* line 24, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
 .page-taxonomy .node-enabler {
   position: relative;
   overflow: inherit;
   float: left;
 }
 @media (max-width: 480px) {
-  /* line 21, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
+  /* line 24, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
   .page-taxonomy .node-enabler {
     width: 100%;
     margin: 0 0 16px 0;
   }
 }
 @media (min-width: 481px) and (max-width: 767px) {
-  /* line 21, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
+  /* line 24, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
   .page-taxonomy .node-enabler {
     width: 31%;
     margin: 0 1.16% 16px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 21, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
+  /* line 24, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
   .page-taxonomy .node-enabler {
     width: 23%;
     margin: 0 1% 16px;
   }
 }
 @media (min-width: 992px) {
-  /* line 21, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
+  /* line 24, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
   .page-taxonomy .node-enabler {
     width: 18.6%;
     margin: 0 0.7% 16px;
   }
 }
-/* line 24, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
+/* line 27, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
 .page-taxonomy .node-bundle {
   position: relative;
   overflow: inherit;
   float: left;
 }
 @media (max-width: 480px) {
-  /* line 24, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
+  /* line 27, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
   .page-taxonomy .node-bundle {
     width: 100%;
     margin: 0 0 16px 0;
   }
 }
 @media (min-width: 481px) and (max-width: 767px) {
-  /* line 24, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
+  /* line 27, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
   .page-taxonomy .node-bundle {
     width: 31%;
     margin: 0 1.16% 16px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 24, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
+  /* line 27, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
   .page-taxonomy .node-bundle {
     width: 23%;
     margin: 0 1% 16px;
   }
 }
 @media (min-width: 992px) {
-  /* line 24, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
+  /* line 27, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
   .page-taxonomy .node-bundle {
     width: 18.6%;
     margin: 0 0.7% 16px;
   }
 }
 
-/* line 29, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
+/* line 32, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
 #node_enabler_form_group_tags {
   width: 100%;
 }
 
-/* line 34, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
+/* line 37, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
 #filter-php_code p a {
   text-decoration: underline;
 }
 
 @media (max-width: 480px) {
-  /* line 41, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
+  /* line 44, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
   #context-admin-node-form-wrapper .vertical-tabs {
     margin: 0;
   }
-  /* line 44, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
+  /* line 47, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
   #context-admin-node-form-wrapper .vertical-tabs-list {
     width: 100%;
     float: none;
@@ -14134,47 +14146,47 @@ article.node-bundle .content .field-name-field-rank ul.archived-geis li {
   }
 }
 
-/* line 53, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
+/* line 56, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
 article.node-bundle .even img {
   width: 47px !important;
 }
 
-/* line 60, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
+/* line 63, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
 #tabs .btn-group li a {
   color: #8b8b8b;
 }
-/* line 62, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
+/* line 65, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
 #tabs .btn-group li a:first-child {
   margin-left: 0;
 }
-/* line 65, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
+/* line 68, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
 #tabs .btn-group li a:last-child {
   margin-right: 0;
 }
 
-/* line 75, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
+/* line 78, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
 .field-name-field-api-chapter ul.links li {
   display: none;
 }
-/* line 77, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
+/* line 80, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
 .field-name-field-api-chapter ul.links li:first-child {
   display: inline !important;
   width: 98% !important;
   margin-top: 5px;
 }
 
-/* line 86, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
+/* line 89, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
 .node-enabler .field-name-field-services {
   display: none;
 }
 
-/* line 92, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
+/* line 95, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
 .links .node-readmore,
 .links .statistics_counter {
   display: none;
 }
 
-/* line 98, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
+/* line 101, ../scss/FIWARE-Catalogue/pages/_enablers.scss */
 .field-group-format.group_api_content.field-group-div.group-api-content.speed-none.effect-none {
   min-height: 148px;
 }
