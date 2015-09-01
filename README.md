@@ -1,7 +1,7 @@
 Sass Kalatheme - FIWARE Catalogue theme
 =====================
 
-This is a [Kalatheme](https://drupal.org/project/kalatheme) subtheme template that integrates with Sass, Compass, and [Bootstrap Sass](https://github.com/thomas-mcdonald/bootstrap-sass). It is the current theme displayed in the FIWARE Catalogue(http://catalogue.fiware.org) as a Drupal 7 custom theme.  
+This is a [Kalatheme](https://drupal.org/project/kalatheme) subtheme template that integrates with Sass, Compass, and [Bootstrap Sass](https://github.com/thomas-mcdonald/bootstrap-sass). It is the current theme displayed in the FIWARE Catalogue (http://catalogue.fiware.org) as a Drupal 7 custom theme.  
 
 ## Note On Bootstrap Versions
 Currently, Sass Kalatheme is set up for Bootstrap 3. If you're using Bootstrap 2, you can download [the release for 2.3.2](https://github.com/kalamuna/sass_kalatheme/releases/tag/2.3.2).
