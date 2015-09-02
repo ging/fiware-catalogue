@@ -4,7 +4,7 @@
   	width: 100%;
   	margin-bottom: 15px;
   }
-  .radio, 
+  .radio,
   .checkbox{
   	float: none;
   }
@@ -22,7 +22,7 @@
   	.btn{
   	  float: right;
   	  @extend .btn-primary;
-  
+
   	}
 
   }
@@ -33,12 +33,12 @@
     margin: 0;
     dl {
       position: absolute;
-      margin-left: 122px;
+      margin-left: 145px;
     }
   }
 }
 
-.help-block{ 
+.help-block{
   @extend .alert;
   @extend .alert-warning;
   padding: 5px 6px 5px 6px;
@@ -62,7 +62,7 @@
     position: relative;
     .block-block{
       position: absolute;
-      margin-left: 121px;
+      margin-left: 145px;
       margin-top: 25px;
     }
   }
@@ -95,7 +95,7 @@
           width: 100%;
           min-height: 37px;
         }
-      }  
+      }
     }
     h3{
       display: none;
@@ -123,7 +123,7 @@
 }
 
 body.page-node{
-  .admin-list{ 
+  .admin-list{
     @include make-sm-column(9, $gutter: $grid-gutter-width);
     @include make-md-column(8, $gutter: $grid-gutter-width);
     @include make-lg-column(8, $gutter: $grid-gutter-width);
