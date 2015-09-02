@@ -2780,6 +2780,7 @@ fieldset[disabled] .views-field-field-stack-overflow {
   color: #8c8c8c;
   background-color: #fff;
   border-color: #c2c2c2;
+  margin-top: -20px;
 }
 /* line 448, ../scss/bootstrap/_mixins.scss */
 .btn-default:hover, #tabs .btn-group .dropdown:hover, .region-content .block-aggregator:hover, .region-content .block-aggregator div.content .more-link a:hover, .pane-subscribe-group .pane-content a:hover, .views-field-field-feedback:hover,
