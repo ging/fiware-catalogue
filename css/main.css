@@ -2780,7 +2780,6 @@ fieldset[disabled] .views-field-field-stack-overflow {
   color: #8c8c8c;
   background-color: #fff;
   border-color: #c2c2c2;
-  margin-top: -20px;
 }
 /* line 448, ../scss/bootstrap/_mixins.scss */
 .btn-default:hover, #tabs .btn-group .dropdown:hover, .region-content .block-aggregator:hover, .region-content .block-aggregator div.content .more-link a:hover, .pane-subscribe-group .pane-content a:hover, .views-field-field-feedback:hover,
@@ -9193,7 +9192,7 @@ h1#page-title {
   padding-left: 15px;
   padding-right: 15px;
   margin-top: 85px;
-  padding-bottom: 124px;
+  padding-bottom: 150px;
 }
 @media (min-width: 768px) {
   /* line 182, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
@@ -13170,30 +13169,35 @@ body.group-context-node #block-system-main .content .center-wrapper {
   margin-top: 20px;
 }
 /* line 198, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+body.group-context-node .panel-3col-labs .panel-col-first .panel-pane {
+  padding-bottom: 0px;
+}
+/* line 201, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 body.group-context-node .panel-3col-labs .panel-col-first {
   border: 1px solid #C5C5C5;
-  padding: 0 5px 3px;
+  padding: 0 10px 3px;
   word-break: break-word;
+  margin: 0px 15px 0px 0px;
 }
 @media (max-width: 480px) {
-  /* line 198, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+  /* line 201, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
   body.group-context-node .panel-3col-labs .panel-col-first {
     width: 100%;
   }
 }
-/* line 205, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 210, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 body.group-context-node .panel-3col-labs .panel-col-first .views-field-field-rank {
   position: absolute;
   top: 61px;
-  left: -5px;
+  left: -10px;
   width: 213px;
 }
-/* line 210, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 215, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 body.group-context-node .panel-3col-labs .panel-col-first .views-field-field-rank .field-content {
   font-size: 10px;
   padding: 1px 4px 2px;
 }
-/* line 213, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 218, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 body.group-context-node .panel-3col-labs .panel-col-first .views-field-field-rank .field-content a {
   display: inline !important;
   width: 98% !important;
@@ -13201,111 +13205,111 @@ body.group-context-node .panel-3col-labs .panel-col-first .views-field-field-ran
   font-size: 10px;
   padding: 1px 4px 2px;
 }
-/* line 222, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 227, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 body.group-context-node .panel-3col-labs .panel-col-first .views-field-field-rank .fiware-ge {
   background-color: #ababab;
 }
-/* line 223, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 228, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 body.group-context-node .panel-3col-labs .panel-col-first .views-field-field-rank .compliant-ge {
   background-color: #8dec74;
 }
-/* line 224, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 229, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 body.group-context-node .panel-3col-labs .panel-col-first .views-field-field-rank .incubated-ge {
   background-color: #fad266;
 }
-/* line 225, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 230, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 body.group-context-node .panel-3col-labs .panel-col-first .views-field-field-rank .archived-geis {
   background-color: #e34242;
 }
-/* line 227, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 232, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 body.group-context-node .panel-3col-labs .panel-col-first .views-row {
   width: 100% !important;
   margin: 0 !important;
 }
-/* line 230, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 235, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 body.group-context-node .panel-3col-labs .panel-col-first .views-row strong {
   font-size: 11px;
   line-height: 25px;
 }
-/* line 235, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 240, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 body.group-context-node .panel-3col-labs .panel-col-first .views-field-field-api-icon,
 body.group-context-node .panel-3col-labs .panel-col-first .views-field-field-icon {
   background: #D9D9D9;
   height: 61px;
   width: 213px;
-  margin-left: -5px;
+  margin-left: -10px;
   margin-bottom: 17px;
 }
-/* line 242, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 247, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 body.group-context-node .panel-3col-labs .panel-col-first .views-field-field-api-icon .field-content,
 body.group-context-node .panel-3col-labs .panel-col-first .views-field-field-icon .field-content {
   width: 55px;
   margin: 0 auto;
   padding: 10px 0;
 }
-/* line 246, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 251, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 body.group-context-node .panel-3col-labs .panel-col-first .views-field-field-api-icon .field-content img,
 body.group-context-node .panel-3col-labs .panel-col-first .views-field-field-icon .field-content img {
   width: 41px;
   height: 41px;
 }
 
-/* line 257, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 262, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 .field-type-text-with-summary .field-item h1, .field-type-text-with-summary .field-item h2, .field-type-text-with-summary .field-item h3, .field-type-text-with-summary .field-item h4, .field-type-text-with-summary .field-item article.node-enabler h2, article.node-enabler .field-type-text-with-summary .field-item h2, .field-type-text-with-summary .field-item article.node-bundle h2, article.node-bundle .field-type-text-with-summary .field-item h2, .field-type-text-with-summary .field-item .page-tools .view-content .views-row h2, .page-tools .view-content .views-row .field-type-text-with-summary .field-item h2, .field-type-text-with-summary .field-item h5, .field-type-text-with-summary .field-item h6 {
   margin-bottom: 2px !important;
   margin-top: 18px !important;
 }
-/* line 260, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 265, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 .field-type-text-with-summary .field-item h1:first-child, .field-type-text-with-summary .field-item h2:first-child, .field-type-text-with-summary .field-item h3:first-child, .field-type-text-with-summary .field-item h4:first-child, .field-type-text-with-summary .field-item article.node-enabler h2:first-child, article.node-enabler .field-type-text-with-summary .field-item h2:first-child, .field-type-text-with-summary .field-item article.node-bundle h2:first-child, article.node-bundle .field-type-text-with-summary .field-item h2:first-child, .field-type-text-with-summary .field-item .page-tools .view-content .views-row h2:first-child, .page-tools .view-content .views-row .field-type-text-with-summary .field-item h2:first-child, .field-type-text-with-summary .field-item h5:first-child, .field-type-text-with-summary .field-item h6:first-child {
   margin-top: 0px !important;
 }
-/* line 264, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 269, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 .field-type-text-with-summary .field-item h4, .field-type-text-with-summary .field-item article.node-enabler h2, article.node-enabler .field-type-text-with-summary .field-item h2, .field-type-text-with-summary .field-item article.node-bundle h2, article.node-bundle .field-type-text-with-summary .field-item h2, .field-type-text-with-summary .field-item .page-tools .view-content .views-row h2, .page-tools .view-content .views-row .field-type-text-with-summary .field-item h2, .field-type-text-with-summary .field-item h5 {
   color: #000;
 }
-/* line 267, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 272, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 .field-type-text-with-summary .field-item ul, .field-type-text-with-summary .field-item ol {
   margin-top: 9px;
   margin-bottom: 14px;
 }
-/* line 270, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 275, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 .field-type-text-with-summary .field-item ul li, .field-type-text-with-summary .field-item ol li {
   margin: 8px 0;
   list-style: inherit;
 }
 
-/* line 278, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 283, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 .pane-subscribe-group {
   padding-bottom: 0 !important;
 }
-/* line 280, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 285, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 .pane-subscribe-group .pane-content a {
   width: 100%;
   margin-bottom: 5px;
 }
 
 @media (max-width: 480px) {
-  /* line 286, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+  /* line 291, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
   article.node-full {
     margin-top: 20px;
   }
 }
 
 @media (max-width: 480px) {
-  /* line 291, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+  /* line 296, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
   .views-field-field-api-icon {
     width: 104% !important;
   }
 }
 
-/* line 297, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 302, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 #block-views-exp-bundles-list-page,
 #block-views-exp-api-list-page,
 #block-views-exp-tool-list-page {
   float: left;
 }
 
-/* line 303, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 308, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 p.test {
   white-space: nowrap;
   width: 12em;
@@ -13314,52 +13318,52 @@ p.test {
   /*otras hornamentales*/
 }
 
-/* line 316, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 321, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 body.node-type-bundle .panel-col-top .views-row-first span i:before {
   margin-right: 6px;
 }
 
-/* line 324, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 329, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 .views-field-field-feedback,
 .views-field-field-stack-overflow {
   width: 100%;
   margin-top: 10px;
 }
-/* line 331, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 336, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 .views-field-field-feedback:hover .field-content a,
 .views-field-field-stack-overflow:hover .field-content a {
   color: #59c0d2;
 }
-/* line 335, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 340, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 .views-field-field-feedback .field-content,
 .views-field-field-stack-overflow .field-content {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-/* line 338, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 343, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 .views-field-field-feedback span,
 .views-field-field-stack-overflow span {
   display: none;
 }
 
-/* line 343, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 348, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 .field-name-field-feedback {
   display: none;
 }
 
 /****************************** ENABLER CREATE*/
-/* line 349, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 354, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 div.vertical-tabs ul.vertical-tabs-list li {
   background-color: #E7E7E7;
 }
 
-/* line 353, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 358, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 #edit-field-so-name {
   display: block;
 }
 
-/* line 357, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 362, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 .page-node-add-instance #block-system-main {
   position: relative;
   min-height: 1px;
@@ -13367,13 +13371,13 @@ div.vertical-tabs ul.vertical-tabs-list li {
   padding-right: 15px;
 }
 @media (min-width: 992px) {
-  /* line 357, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+  /* line 362, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
   .page-node-add-instance #block-system-main {
     float: left;
     width: 100%;
   }
 }
-/* line 359, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 364, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 .page-node-add-instance #block-system-main .content {
   position: relative;
   float: left;
@@ -13395,20 +13399,20 @@ div.vertical-tabs ul.vertical-tabs-list li {
   margin-right: auto;
 }
 @media (min-width: 768px) {
-  /* line 359, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+  /* line 364, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
   .page-node-add-instance #block-system-main .content {
     float: left;
     width: 83.3333333333%;
   }
 }
 @media (min-width: 992px) {
-  /* line 359, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+  /* line 364, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
   .page-node-add-instance #block-system-main .content {
     float: left;
     width: 58.3333333333%;
   }
 }
-/* line 366, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 371, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 .page-node-add-instance #block-system-main .content .form-item,
 .page-node-add-instance #block-system-main .content .form-wrapper {
   margin-bottom: 20px;
@@ -13416,30 +13420,30 @@ div.vertical-tabs ul.vertical-tabs-list li {
   clear: both;
   padding: 0;
 }
-/* line 373, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 378, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 .page-node-add-instance #block-system-main .content .filter-guidelines-processed {
   margin-top: 0;
   margin-bottom: 4px;
 }
-/* line 377, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 382, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 .page-node-add-instance #block-system-main .content .vertical-tabs {
   clear: both;
 }
-/* line 380, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 385, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 .page-node-add-instance #block-system-main .content div.vertical-tabs .vertical-tabs-panes {
   float: left;
 }
-/* line 386, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 391, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 .page-node-add-instance #block-system-main .content .image-widget-data input[type="file"],
 .page-node-add-instance #block-system-main .content .form-type-managed-file input[type="file"] {
   margin-top: 8px;
   margin-bottom: 4px;
 }
-/* line 393, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 398, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 .page-node-add-instance #block-system-main ul.tips {
   padding-left: 0px;
 }
-/* line 395, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 400, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 .page-node-add-instance #block-system-main ul.tips li {
   margin-bottom: 10px;
 }
@@ -13702,31 +13706,31 @@ div.vertical-tabs ul.vertical-tabs-list li {
   clear: none !important;
 }
 
-/* line 411, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 416, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 .page-bundles-add-bundle .table-hover tbody tr:hover > td {
   background: rgba(231, 231, 219, 0.13) !important;
   color: #5B5B5F !important;
 }
 
-/* line 417, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 422, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 #field-stack-overflow-add-more-wrapper {
   display: none;
 }
 
-/* line 422, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 427, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 .page-group-node-admin-people-add-user #page {
   background: #101010 url(images/bkg.png) bottom left repeat-x;
 }
-/* line 424, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 429, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 .page-group-node-admin-people-add-user #page .content {
   background: #FFF;
 }
-/* line 427, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 432, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 .page-group-node-admin-people-add-user #page #branding {
   background-color: #F0F0F0;
 }
 
-/* line 431, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 436, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 form#og-ui-add-users {
   display: table;
   margin: 0px auto 0;
@@ -13739,11 +13743,11 @@ form#og-ui-add-users {
   width: 88%;
 }
 
-/* line 443, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 448, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 #workbench-moderation-moderate-form .select2-container {
   width: 160px;
 }
-/* line 445, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
+/* line 450, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
 #workbench-moderation-moderate-form .select2-container .select2-choice {
   width: 115px;
   display: inline-flex;
@@ -15710,64 +15714,64 @@ p.corporate {
   float: right;
 }
 
-/* line 32, ../scss/FIWARE-Catalogue/pages/_users.scss */
+/* line 31, ../scss/FIWARE-Catalogue/pages/_users.scss */
 #block-system-main .profile {
   margin: 0;
 }
-/* line 34, ../scss/FIWARE-Catalogue/pages/_users.scss */
+/* line 33, ../scss/FIWARE-Catalogue/pages/_users.scss */
 #block-system-main .profile dl {
   position: absolute;
   margin-left: 145px;
 }
 
-/* line 41, ../scss/FIWARE-Catalogue/pages/_users.scss */
+/* line 40, ../scss/FIWARE-Catalogue/pages/_users.scss */
 .help-block {
   padding: 5px 6px 5px 6px;
   margin-top: 5px;
 }
 
-/* line 49, ../scss/FIWARE-Catalogue/pages/_users.scss */
+/* line 48, ../scss/FIWARE-Catalogue/pages/_users.scss */
 .page-editor-users #top-content {
   min-height: 0;
 }
-/* line 52, ../scss/FIWARE-Catalogue/pages/_users.scss */
+/* line 51, ../scss/FIWARE-Catalogue/pages/_users.scss */
 .page-editor-users .select2-container {
   width: auto !important;
 }
-/* line 55, ../scss/FIWARE-Catalogue/pages/_users.scss */
+/* line 54, ../scss/FIWARE-Catalogue/pages/_users.scss */
 .page-editor-users .view-filters {
   margin-bottom: 15px;
 }
 
-/* line 61, ../scss/FIWARE-Catalogue/pages/_users.scss */
+/* line 60, ../scss/FIWARE-Catalogue/pages/_users.scss */
 .page-user .region-content {
   position: relative;
 }
-/* line 63, ../scss/FIWARE-Catalogue/pages/_users.scss */
+/* line 62, ../scss/FIWARE-Catalogue/pages/_users.scss */
 .page-user .region-content .block-block {
   position: absolute;
   margin-left: 145px;
   margin-top: 25px;
 }
 
-/* line 73, ../scss/FIWARE-Catalogue/pages/_users.scss */
+/* line 72, ../scss/FIWARE-Catalogue/pages/_users.scss */
 #block-system-main .profile .user-picture {
   float: left;
 }
-/* line 76, ../scss/FIWARE-Catalogue/pages/_users.scss */
+/* line 75, ../scss/FIWARE-Catalogue/pages/_users.scss */
 #block-system-main .profile div.field-label-above {
   width: 100%;
   margin-bottom: 40px;
   float: left;
 }
-/* line 80, ../scss/FIWARE-Catalogue/pages/_users.scss */
+/* line 79, ../scss/FIWARE-Catalogue/pages/_users.scss */
 #block-system-main .profile div.field-label-above .field-label {
   border-bottom: 1px solid #CCC;
   padding-bottom: 3px;
   margin-top: 8px;
   font-size: 12px;
 }
-/* line 86, ../scss/FIWARE-Catalogue/pages/_users.scss */
+/* line 85, ../scss/FIWARE-Catalogue/pages/_users.scss */
 #block-system-main .profile div.field-label-above .field-item {
   position: relative;
   width: 100%;
@@ -15775,39 +15779,39 @@ p.corporate {
   border-bottom: 1px solid #DDD;
   min-height: 37px;
 }
-/* line 92, ../scss/FIWARE-Catalogue/pages/_users.scss */
+/* line 91, ../scss/FIWARE-Catalogue/pages/_users.scss */
 #block-system-main .profile div.field-label-above .field-item a {
   position: absolute;
   top: 8px;
   width: 100%;
   min-height: 37px;
 }
-/* line 100, ../scss/FIWARE-Catalogue/pages/_users.scss */
+/* line 99, ../scss/FIWARE-Catalogue/pages/_users.scss */
 #block-system-main .profile h3 {
   display: none;
   border-bottom: none;
   margin-bottom: 8px;
 }
-/* line 105, ../scss/FIWARE-Catalogue/pages/_users.scss */
+/* line 104, ../scss/FIWARE-Catalogue/pages/_users.scss */
 #block-system-main .profile dl dt {
   font-size: 12px;
 }
-/* line 108, ../scss/FIWARE-Catalogue/pages/_users.scss */
+/* line 107, ../scss/FIWARE-Catalogue/pages/_users.scss */
 #block-system-main .profile dl {
   padding-top: 57px;
 }
 
-/* line 114, ../scss/FIWARE-Catalogue/pages/_users.scss */
+/* line 113, ../scss/FIWARE-Catalogue/pages/_users.scss */
 #edit-suspend .help-block {
   margin-top: 18px;
 }
 
-/* line 120, ../scss/FIWARE-Catalogue/pages/_users.scss */
+/* line 119, ../scss/FIWARE-Catalogue/pages/_users.scss */
 #edit-settings .help-block {
   margin-bottom: 18px;
 }
 
-/* line 126, ../scss/FIWARE-Catalogue/pages/_users.scss */
+/* line 125, ../scss/FIWARE-Catalogue/pages/_users.scss */
 body.page-node .admin-list {
   position: relative;
   min-height: 1px;
@@ -15823,53 +15827,53 @@ body.page-node .admin-list {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 126, ../scss/FIWARE-Catalogue/pages/_users.scss */
+  /* line 125, ../scss/FIWARE-Catalogue/pages/_users.scss */
   body.page-node .admin-list {
     float: left;
     width: 75%;
   }
 }
 @media (min-width: 992px) {
-  /* line 126, ../scss/FIWARE-Catalogue/pages/_users.scss */
+  /* line 125, ../scss/FIWARE-Catalogue/pages/_users.scss */
   body.page-node .admin-list {
     float: left;
     width: 66.6666666667%;
   }
 }
 @media (min-width: 1200px) {
-  /* line 126, ../scss/FIWARE-Catalogue/pages/_users.scss */
+  /* line 125, ../scss/FIWARE-Catalogue/pages/_users.scss */
   body.page-node .admin-list {
     float: left;
     width: 66.6666666667%;
   }
 }
-/* line 130, ../scss/FIWARE-Catalogue/pages/_users.scss */
+/* line 129, ../scss/FIWARE-Catalogue/pages/_users.scss */
 body.page-node .admin-list dt {
   margin-top: 15px;
   padding-top: 7px;
   border-top: 1px solid #CCC;
 }
 
-/* line 138, ../scss/FIWARE-Catalogue/pages/_users.scss */
+/* line 137, ../scss/FIWARE-Catalogue/pages/_users.scss */
 body.page-group-node .radio + .radio, body.page-group-node .checkbox + .checkbox {
   margin-top: 0;
   border-bottom: 1px solid transparent;
   border-right: 1px solid transparent;
   border-left: 1px solid transparent;
 }
-/* line 144, ../scss/FIWARE-Catalogue/pages/_users.scss */
+/* line 143, ../scss/FIWARE-Catalogue/pages/_users.scss */
 body.page-group-node td.checkbox {
   border-bottom: 1px solid transparent;
   border-right: 1px solid transparent;
   border-left: 1px solid transparent;
   min-height: 50px;
 }
-/* line 150, ../scss/FIWARE-Catalogue/pages/_users.scss */
+/* line 149, ../scss/FIWARE-Catalogue/pages/_users.scss */
 body.page-group-node .table-hover tbody tr:hover > td.checkbox {
   background-color: transparent;
 }
 
-/* line 155, ../scss/FIWARE-Catalogue/pages/_users.scss */
+/* line 154, ../scss/FIWARE-Catalogue/pages/_users.scss */
 body.page-node-group table#permissions {
   font-size: 0.923em;
   margin: 0 0 10px;
@@ -15889,27 +15893,27 @@ body.page-node-group table#permissions {
   margin: 0 auto;
 }
 @media (min-width: 768px) {
-  /* line 155, ../scss/FIWARE-Catalogue/pages/_users.scss */
+  /* line 154, ../scss/FIWARE-Catalogue/pages/_users.scss */
   body.page-node-group table#permissions {
     float: left;
     width: 75%;
   }
 }
 @media (min-width: 992px) {
-  /* line 155, ../scss/FIWARE-Catalogue/pages/_users.scss */
+  /* line 154, ../scss/FIWARE-Catalogue/pages/_users.scss */
   body.page-node-group table#permissions {
     float: left;
     width: 66.6666666667%;
   }
 }
 @media (min-width: 1200px) {
-  /* line 155, ../scss/FIWARE-Catalogue/pages/_users.scss */
+  /* line 154, ../scss/FIWARE-Catalogue/pages/_users.scss */
   body.page-node-group table#permissions {
     float: left;
     width: 66.6666666667%;
   }
 }
-/* line 163, ../scss/FIWARE-Catalogue/pages/_users.scss */
+/* line 162, ../scss/FIWARE-Catalogue/pages/_users.scss */
 body.page-node-group table#permissions th {
   text-transform: uppercase;
   background: #E1E2DC;
@@ -15919,17 +15923,17 @@ body.page-node-group table#permissions th {
   border-color: #BEBFB9;
   padding: 3px 10px;
 }
-/* line 174, ../scss/FIWARE-Catalogue/pages/_users.scss */
+/* line 173, ../scss/FIWARE-Catalogue/pages/_users.scss */
 body.page-node-group .table-hover tbody tr:hover > td, body.page-node-group .table-hover tbody tr:hover > th {
   background-color: transparent;
   color: #FFF;
 }
-/* line 179, ../scss/FIWARE-Catalogue/pages/_users.scss */
+/* line 178, ../scss/FIWARE-Catalogue/pages/_users.scss */
 body.page-node-group .table-striped tbody > tr:nth-child(odd) > td, body.page-node-group .table-striped tbody > tr:nth-child(odd) > th {
   background-color: #F3F4EE;
 }
 
-/* line 185, ../scss/FIWARE-Catalogue/pages/_users.scss */
+/* line 184, ../scss/FIWARE-Catalogue/pages/_users.scss */
 .table-striped td.checkbox,
 .table-striped th.checkbox {
   width: 86px !important;

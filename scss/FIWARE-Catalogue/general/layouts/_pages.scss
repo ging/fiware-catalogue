@@ -184,7 +184,7 @@ h1#page-title{
   @include make-md-column(12, $gutter: $grid-gutter-width);
   @include make-lg-column(12, $gutter: $grid-gutter-width);
   margin-top: 85px;
-  padding-bottom: 124px;
+  padding-bottom: 150px;
   @media (max-width: $screen-sm-min){
     margin-top: 68px;
     padding: 0 5px 133px;

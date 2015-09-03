@@ -195,17 +195,22 @@ body.group-context-node{
       }
     }
   }
+  .panel-3col-labs .panel-col-first .panel-pane {
+      padding-bottom: 0px;
+  }
   .panel-3col-labs .panel-col-first{
     border: 1px solid #C5C5C5;
-    padding: 0 5px 3px;
+    padding: 0 10px 3px;
     word-break: break-word;
+    margin: 0px 15px 0px 0px;
     @media (max-width: $screen-xs-min){
       width: 100%;
     }
+
     .views-field-field-rank{
       position: absolute;
       top: 61px;
-      left: -5px;
+      left: -10px;
       width: 213px;
       .field-content{
         font-size: 10px;
@@ -237,7 +242,7 @@ body.group-context-node{
       background: #D9D9D9;
       height: 61px;
       width: 213px;
-      margin-left: -5px;
+      margin-left: -10px;
       margin-bottom: 17px;
       .field-content {
         width: 55px;
