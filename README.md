@@ -2,7 +2,6 @@
 
 + [Introduction](#def-introduction)
 + [The FIWARE Catalogue theme](#def-theme)
-+ [How to get the FIWARE Catalogue database](#def-database)
 
 ---
 
@@ -16,6 +15,8 @@ This project is part of [FIWARE](http://fiware.org). It consists in a rich libra
 
 - You will find the source code of this project in a GitHub release [here](https://github.com/ging/fiware-catalogue/releases)
 - You will find the source code of the custom FIWARE theme implemented in the GitHub repository.  
+
+Note: The FIWARE Catalogue attached in the GitHub release contains no database. If you need this database please contact with an authorized entity of the FIWARE project. 
 
 <a name="def-theme"></a>
 
@@ -43,8 +44,5 @@ To get started, follow these steps:
 * Do your custom Sass styling work in the theme's scss folder.
 * Run "compass compile" in the theme's root directory to generate your custom css.
 
-<a name="def-database"></a>
 
-## How to get the FIWARE Catalogue database
 
-The FIWARE Catalogue attached in the GitHub release contains no database. If you need this database please contact with an authorized entity of the FIWARE project. 
