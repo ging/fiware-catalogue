@@ -12,7 +12,7 @@
 
 ## Introduction
 
-This project is part of [FIWARE](http://fiware.org). It consists in a rich library of components (Generic Enablers) with reference implementations that allow developers to put into effect functionalities. You will find more information about tthe Catalogue [here](https://forge.fiware.org/plugins/mediawiki/wiki/fiware/index.php/Working_with_the_FIWARE_catalogue).
+This project is part of [FIWARE](http://fiware.org). It consists in a rich library of components (Generic Enablers) with reference implementations that allow developers to put into effect functionalities. You will find more information about the FIWARE Catalogue [here](https://forge.fiware.org/plugins/mediawiki/wiki/fiware/index.php/Working_with_the_FIWARE_catalogue).
 
 - You will find the source code of this project in a GitHub release [here](https://github.com/ging/fiware-catalogue/releases)
 - You will find the source code of the custom FIWARE theme implemented in the GitHub repository.  
