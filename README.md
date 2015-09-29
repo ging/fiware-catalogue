@@ -26,6 +26,7 @@ This repository is a [Kalatheme](https://drupal.org/project/kalatheme) subtheme 
 Currently, Sass Kalatheme is set up for Bootstrap 3. If you're using Bootstrap 2, you can download [the release for 2.3.2](https://github.com/kalamuna/sass_kalatheme/releases/tag/2.3.2).
 
 ### Requirements
+* [Drupal](https://www.drupal.org/)
 * [Sass](http://sass-lang.com/)
 * [Compass](http://compass-style.org/)
 
