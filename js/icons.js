@@ -42,13 +42,19 @@
 		$('a[href$="fiware-geris"]').closest('div').addClass('compliant-ge');
 		$('a[href$="archived-geis"]').closest('div').addClass('archived-geis');
                 $('#block-views-exp-api-list-pag').closest('div').html('<a href="/whatsnew">Whatsnew</a>');
-	});
+		if($('article').hasClass('node-unpublished')){
+                 $(".node-unpublished").append('<img class="img-notpublished" src="/sites/all/themes/fiwareSASS/images/not_published.png">');
+       }});
 
 	$( document ).ajaxComplete(function( event,request, settings ) {
   	        $('ul li').filter(function(index) { return $(this).text() === "Incubated GEs/GEris"; }).closest('ul').addClass('incubated-ge');
                 $('ul li').filter(function(index) { return $(this).text() === "FIWARE GEis"; }).closest('ul').addClass('fiware-ge');
                 $('ul li').filter(function(index) { return $(this).text() === "FIWARE GEris"; }).closest('ul').addClass('compliant-ge');
 		$('ul li').filter(function(index) { return $(this).text() === "Archived GEis"; }).closest('ul').addClass('archived-geis');
+                    $('ul li').filter(function(index) { return $(this).text() === "Archived GEis"; }).closest('div').parent().prev().addClass('archived-geis-bg');
+    $('ul li').filter(function(index) { return $(this).text() === "FIWARE GEris"; }).closest('div').parent().prev().addClass('compliant-ge-bg');
+    $('ul li').filter(function(index) { return $(this).text() === "Incubated GEs/GEris"; }).closest('div').parent().prev().addClass('incubated-ge-bg');
+    $('ul li').filter(function(index) { return $(this).text() === "FIWARE GEis"; }).closest('div').parent().prev().addClass('fiware-ge-bg');
 
 	});
 })(jQuery);
