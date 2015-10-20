@@ -177,6 +177,11 @@ h1#page-title{
 .node-unpublished {
   border: 1px solid rgba(226, 64, 104, 0.82) !important;
   background: rgba(226, 64, 104, 0.04);
+  .img-notpublished{
+    position: absolute;
+    right: -4px;
+    top: 10px;
+  }
 }
 
 #page-wrapper {
