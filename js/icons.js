@@ -55,6 +55,7 @@
     $('ul li').filter(function(index) { return $(this).text() === "FIWARE GEris"; }).closest('div').parent().prev().addClass('compliant-ge-bg');
     $('ul li').filter(function(index) { return $(this).text() === "Incubated GEs/GEris"; }).closest('div').parent().prev().addClass('incubated-ge-bg');
     $('ul li').filter(function(index) { return $(this).text() === "FIWARE GEis"; }).closest('div').parent().prev().addClass('fiware-ge-bg');
-
-	});
+      if($('article').hasClass('node-unpublished')){
+                 $(".node-unpublished").append('<img class="img-notpublished" src="/sites/all/themes/fiwareSASS/images/not_published.png">');
+       }});
 })(jQuery);
