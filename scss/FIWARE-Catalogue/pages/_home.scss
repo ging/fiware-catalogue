@@ -44,13 +44,51 @@
   .container-fluid{
     padding: 46px 90px;
     min-height: 137px;
+    @media (max-width: $screen-md) {
+      padding: 20px;
+    }
     a{
       &:hover h3{
         text-shadow: 0px 0px 6px #FFF;
       }
     }
+    .bt_tour {
+      background-color: #fbb03b;
+      color: white;
+      padding: 5px 15px;
+      border-radius: 5px;
+      text-align: center;
+      font-size: 1.8em;
+      @media (max-width: 1250px) {
+        font-size: 1.5em;
+        padding: 7px 15px;
+      }
+      @media (max-width: 1100px) {
+        font-size: 1.2em;
+        padding: 10px 15px;
+      }
+      @media (max-width: $screen-md) {
+        font-size: 1.8em;
+        padding: 5px 15px;
+
+      }
+
+      .bt_txt{
+        font-family: "NeoTechRegular" !important;
+        margin-right: 10px;
+      }
+      &:hover{
+        color: $white;
+        text-shadow: 0px 0px 2px #FFF;
+      }
+    }
     .txt_tour{
       padding: 3px 0;
+      margin: 0 auto;
+      @media (max-width: $screen-md) {
+        text-align: center;
+        margin: 10px 0;
+      }
       h4{
         color: $brand-primary !important;
         font-weight: bold;
@@ -219,23 +257,5 @@
         }
       }
     }
-  }
-}
-
-.bt_tour {
-  background-color: #fbb03b;
-  color: white;
-  width: 255px;
-  padding: 5px 15px;
-  border-radius: 5px;
-  font-size: 1.8em;
-  text-align: center;
-  .bt_txt{
-    font-family: "NeoTechRegular" !important;
-    margin-right: 10px;
-  }
-  &:hover{
-    color: $white;
-    text-shadow: 0px 0px 2px #FFF;
   }
 }
