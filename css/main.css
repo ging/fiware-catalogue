@@ -14573,25 +14573,25 @@ p.corporate {
   margin: 35px 0 0;
   background-color: #acdfe8;
 }
-/* line 43, ../scss/FIWARE-Catalogue/pages/_home.scss */
-.row.take-tour h4, .row.take-tour article.node-enabler h2, article.node-enabler .row.take-tour h2, .row.take-tour article.node-bundle h2, article.node-bundle .row.take-tour h2, .row.take-tour .page-tools .view-content .views-row h2, .page-tools .view-content .views-row .row.take-tour h2 {
-  color: #193B6B !important;
-  text-align: center !important;
-  font-weight: bold;
-  width: 336px;
-  margin: 0 auto 15px;
-  height: 43px;
-  padding-top: 43px;
-}
-/* line 52, ../scss/FIWARE-Catalogue/pages/_home.scss */
+/* line 44, ../scss/FIWARE-Catalogue/pages/_home.scss */
 .row.take-tour .container-fluid {
-  padding-right: 30px;
-  padding-left: 30px;
+  padding: 46px 90px;
   min-height: 137px;
 }
-/* line 57, ../scss/FIWARE-Catalogue/pages/_home.scss */
+/* line 48, ../scss/FIWARE-Catalogue/pages/_home.scss */
 .row.take-tour .container-fluid a:hover h3 {
   text-shadow: 0px 0px 6px #FFF;
+}
+/* line 52, ../scss/FIWARE-Catalogue/pages/_home.scss */
+.row.take-tour .container-fluid .txt_tour {
+  padding: 3px 0;
+}
+/* line 54, ../scss/FIWARE-Catalogue/pages/_home.scss */
+.row.take-tour .container-fluid .txt_tour h4, .row.take-tour .container-fluid .txt_tour article.node-enabler h2, article.node-enabler .row.take-tour .container-fluid .txt_tour h2, .row.take-tour .container-fluid .txt_tour article.node-bundle h2, article.node-bundle .row.take-tour .container-fluid .txt_tour h2, .row.take-tour .container-fluid .txt_tour .page-tools .view-content .views-row h2, .page-tools .view-content .views-row .row.take-tour .container-fluid .txt_tour h2 {
+  color: #193B6B !important;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 0;
 }
 @media (max-width: 768px) {
   /* line 63, ../scss/FIWARE-Catalogue/pages/_home.scss */
@@ -15117,155 +15117,25 @@ p.corporate {
   }
 }
 
-/* ribbon style */
-/* line 228, ../scss/FIWARE-Catalogue/pages/_home.scss */
-.ribbon-wrapper {
-  width: 190px;
-  margin: 0 auto;
-  position: relative;
-  border-bottom: 20px solid transparent;
-  border-top: 20px solid transparent;
-}
-
-/* line 240, ../scss/FIWARE-Catalogue/pages/_home.scss */
-.ribbon-front {
+/* line 225, ../scss/FIWARE-Catalogue/pages/_home.scss */
+.bt_tour {
   background-color: #fbb03b;
-  height: 51px;
-  width: 250px;
-  position: relative;
-  left: -30px;
-  top: 36px;
-  z-index: 2;
-  -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.55);
-  -khtml-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.55);
-  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.55);
-  -o-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.55);
-}
-@media (max-width: 480px) {
-  /* line 240, ../scss/FIWARE-Catalogue/pages/_home.scss */
-  .ribbon-front {
-    width: 197px;
-    left: -4px;
-  }
-}
-/* line 257, ../scss/FIWARE-Catalogue/pages/_home.scss */
-.ribbon-front h3 {
+  color: white;
+  width: 255px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-size: 1.8em;
   text-align: center;
-  font-weight: bold;
+}
+/* line 233, ../scss/FIWARE-Catalogue/pages/_home.scss */
+.bt_tour .bt_txt {
+  font-family: "NeoTechRegular" !important;
+  margin-right: 10px;
+}
+/* line 237, ../scss/FIWARE-Catalogue/pages/_home.scss */
+.bt_tour:hover {
   color: #fff;
-  padding-top: 15px;
-  padding-bottom: 11px;
-  margin-top: -36px;
-}
-/* line 265, ../scss/FIWARE-Catalogue/pages/_home.scss */
-.ribbon-front:hover {
-  color: #fff;
-  text-shadow: 0px 0px 1px #FFF;
-}
-
-/* line 271, ../scss/FIWARE-Catalogue/pages/_home.scss */
-.ribbon-edge-topleft,
-.ribbon-edge-topright,
-.ribbon-edge-bottomleft,
-.ribbon-edge-bottomright {
-  position: absolute;
-  z-index: 1;
-  border-style: solid;
-  height: 0px;
-  width: 0px;
-}
-
-/* line 286, ../scss/FIWARE-Catalogue/pages/_home.scss */
-.ribbon-edge-bottomleft,
-.ribbon-edge-bottomright {
-  top: 51px;
-}
-
-/* line 291, ../scss/FIWARE-Catalogue/pages/_home.scss */
-.ribbon-edge-topleft,
-.ribbon-edge-bottomleft {
-  left: -60px;
-  border-color: transparent #A85F16 transparent transparent;
-}
-
-/* line 297, ../scss/FIWARE-Catalogue/pages/_home.scss */
-.ribbon-edge-topleft {
-  top: 0px;
-  border-width: 0px 30px 0 0;
-}
-
-/* line 301, ../scss/FIWARE-Catalogue/pages/_home.scss */
-.ribbon-edge-bottomleft {
-  border-width: 0 31px 16px;
-}
-@media (max-width: 480px) {
-  /* line 301, ../scss/FIWARE-Catalogue/pages/_home.scss */
-  .ribbon-edge-bottomleft {
-    border-width: 0 55px 16px;
-  }
-}
-
-/* line 308, ../scss/FIWARE-Catalogue/pages/_home.scss */
-.ribbon-edge-topright,
-.ribbon-edge-bottomright {
-  left: 189px;
-  border-color: transparent transparent transparent #A85F16;
-}
-
-/* line 314, ../scss/FIWARE-Catalogue/pages/_home.scss */
-.ribbon-edge-topright {
-  top: 0;
-  border-width: 0px 30px 0 0;
-}
-
-/* line 318, ../scss/FIWARE-Catalogue/pages/_home.scss */
-.ribbon-edge-bottomright {
-  border-width: 0 31px 16px;
-}
-@media (max-width: 480px) {
-  /* line 318, ../scss/FIWARE-Catalogue/pages/_home.scss */
-  .ribbon-edge-bottomright {
-    border-width: 0 52px 16px;
-    left: 140px;
-  }
-}
-
-/* line 326, ../scss/FIWARE-Catalogue/pages/_home.scss */
-.ribbon-back-left {
-  position: absolute;
-  top: 15px;
-  left: -89px;
-  width: 90px;
-  height: 0;
-  background-color: #ACDFE8;
-  z-index: 0;
-  border-left: 25px solid transparent;
-  border-top: 52px solid #F7931E;
-}
-@media (max-width: 480px) {
-  /* line 326, ../scss/FIWARE-Catalogue/pages/_home.scss */
-  .ribbon-back-left {
-    left: -40px;
-  }
-}
-
-/* line 341, ../scss/FIWARE-Catalogue/pages/_home.scss */
-.ribbon-back-right {
-  position: absolute;
-  top: 15px;
-  right: -89px;
-  width: 90px;
-  height: 0px;
-  background-color: #ACDFE8;
-  z-index: 0;
-  border-right: 25px solid transparent;
-  border-top: 52px solid #F7931E;
-}
-@media (max-width: 480px) {
-  /* line 341, ../scss/FIWARE-Catalogue/pages/_home.scss */
-  .ribbon-back-right {
-    left: 140px;
-  }
+  text-shadow: 0px 0px 2px #FFF;
 }
 
 /****************************** ENABLERS */
