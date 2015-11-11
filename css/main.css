@@ -14575,7 +14575,7 @@ p.corporate {
 }
 /* line 44, ../scss/FIWARE-Catalogue/pages/_home.scss */
 .row.take-tour .container-fluid {
-  padding: 46px 90px;
+  padding: 3.5% 10%;
   min-height: 137px;
 }
 @media (max-width: 992px) {
