@@ -31,12 +31,18 @@
 		$('ul li').filter(function(index) { return $(this).text() === "FIWARE GEis"; }).closest('ul').addClass('fiware-ge');
 		$('ul li').filter(function(index) { return $(this).text() === "FIWARE GEris"; }).closest('ul').addClass('compliant-ge');
 		$('ul li').filter(function(index) { return $(this).text() === "Archived GEis"; }).closest('ul').addClass('archived-geis');
-
+    
     $('ul li').filter(function(index) { return $(this).text() === "Archived GEis"; }).closest('div').parent().prev().addClass('archived-geis-bg');
     $('ul li').filter(function(index) { return $(this).text() === "FIWARE GEris"; }).closest('div').parent().prev().addClass('compliant-ge-bg');
     $('ul li').filter(function(index) { return $(this).text() === "Incubated GEs/GEris"; }).closest('div').parent().prev().addClass('incubated-ge-bg');
     $('ul li').filter(function(index) { return $(this).text() === "FIWARE GEis"; }).closest('div').parent().prev().addClass('fiware-ge-bg');
 
+    $('#block-views-exp-api-list-page').addClass('filter-bar');
+    $('#block-views-exp-api-list-page').before('<h4>Filters</4>');
+
+    $('#edit-filter-wrapper').addClass('filter-search');
+    $('#edit-filterchapters-wrapper').addClass('filter-chapters');
+    $('#edit-filterranks-wrapper').addClass('filter-ranks');
 		$('a[href$="incubated-gesgeris"]').closest('div').addClass('incubated-ge');
 		$('a[href$="fiware-geis"]').closest('div').addClass('fiware-ge');
 		$('a[href$="fiware-geris"]').closest('div').addClass('compliant-ge');
@@ -55,7 +61,13 @@
     $('ul li').filter(function(index) { return $(this).text() === "FIWARE GEris"; }).closest('div').parent().prev().addClass('compliant-ge-bg');
     $('ul li').filter(function(index) { return $(this).text() === "Incubated GEs/GEris"; }).closest('div').parent().prev().addClass('incubated-ge-bg');
     $('ul li').filter(function(index) { return $(this).text() === "FIWARE GEis"; }).closest('div').parent().prev().addClass('fiware-ge-bg');
-      if($('article').hasClass('node-unpublished')){
-                 $(".node-unpublished").append('<img class="img-notpublished" src="/sites/all/themes/fiwareSASS/images/not_published.png">');
-       }});
+    
+    $('#block-views-exp-api-list-page').addClass('filter-bar');         
+    $('#edit-filter-wrapper').addClass('filter-search');
+    $('#edit-filterchapters-wrapper').addClass('filter-chapters');
+    $('#edit-filterranks-wrapper').addClass('filter-ranks');
+    if (!$('article').hasClass('node-unpublished').length){
+          $(".node-unpublished").append('<img class="img-notpublished" src="/sites/all/themes/fiwareSASS/images/not_published.png">');
+     }
+});
 })(jQuery);
