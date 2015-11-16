@@ -38,11 +38,14 @@
     $('ul li').filter(function(index) { return $(this).text() === "FIWARE GEis"; }).closest('div').parent().prev().addClass('fiware-ge-bg');
 
     $('#block-views-exp-api-list-page').addClass('filter-bar');
-    $('#block-views-exp-api-list-page').before('<h4>Filters</4>');
-
+    $('#block-views-exp-api-list-page').prepend('<h4>filters</h4>');
+    
     $('#edit-filter-wrapper').addClass('filter-search');
     $('#edit-filterchapters-wrapper').addClass('filter-chapters');
     $('#edit-filterranks-wrapper').addClass('filter-ranks');
+    $('#block-views-exp-api-list-page').wrap('<div class="col-md-2">');
+    $('#block-system-main').addClass('col-md-10');
+    $('#block-system-main').addClass('enabler-list-content');
 		$('a[href$="incubated-gesgeris"]').closest('div').addClass('incubated-ge');
 		$('a[href$="fiware-geis"]').closest('div').addClass('fiware-ge');
 		$('a[href$="fiware-geris"]').closest('div').addClass('compliant-ge');
