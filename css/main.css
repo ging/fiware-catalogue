@@ -9063,10 +9063,11 @@ h1#page-title {
 /* line 76, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
 .enabler-list-content {
   padding: 0;
+  margin-top: 15px;
 }
 
 /* line 80, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
-#block-system-main {
+.view-id-bundles_list, .view-id-tool_list, .panel-1col {
   width: 100%;
   margin-top: 15px;
   padding-top: 0;
@@ -14590,7 +14591,7 @@ p.corporate {
   padding: 5px 15px;
   border-radius: 5px;
   text-align: center;
-  font-size: 1.8em;
+  font-size: 1.4em;
 }
 @media (max-width: 1250px) {
   /* line 55, ../scss/FIWARE-Catalogue/pages/_home.scss */
