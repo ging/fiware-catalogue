@@ -44,8 +44,8 @@
     $('#edit-filterchapters-wrapper').addClass('filter-chapters');
     $('#edit-filterranks-wrapper').addClass('filter-ranks');
     $('#block-views-exp-api-list-page').wrap('<div class="col-md-2">');
-    $('#block-system-main').addClass('col-md-10');
-    $('#block-system-main').addClass('enabler-list-content');
+    $('.view-api-list').addClass('col-md-10');
+    $('.view-api-list').addClass('enabler-list-content');
 		$('a[href$="incubated-gesgeris"]').closest('div').addClass('incubated-ge');
 		$('a[href$="fiware-geis"]').closest('div').addClass('fiware-ge');
 		$('a[href$="fiware-geris"]').closest('div').addClass('compliant-ge');
