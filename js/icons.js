@@ -12,7 +12,7 @@
         	$('a[href$="creating-instances-8"]').html('<i class="fa fa-magic"></i><span> Creating Instances</span>');
         	$('a[href$="documentation-11"]').html('<i class="fa fa-book"></i><span> Documentation</span>');
         	$('a[href$="downloads-5"]').html('<i class="fa fa-download"></i><span> Downloads</span>');
-        	$('a[href$="instances-6"]').html('<i class="fa fa-file-text-o"></i><span> Instances</span>');
+        	$('a[href$="instances-6"]').html('<i class="fa fia-file-text-o"></i><span> Instances</span>');
         	$('a[href$="terms-and-conditions-9"]').html('<i class="fa fa-list-ul"></i><span> Terms and conditions</span>');
 		$('a[href$="documentation-61"]').html('<i class="fa fa-book"></i><span> Documentation</span>');
 		$('a[href$="instances-56"]').html('<i class="fa fa-book"></i><span> Instances</span>');
@@ -36,14 +36,12 @@
     $('ul li').filter(function(index) { return $(this).text() === "FIWARE GEris"; }).closest('div').parent().prev().addClass('compliant-ge-bg');
     $('ul li').filter(function(index) { return $(this).text() === "Incubated GEs/GEris"; }).closest('div').parent().prev().addClass('incubated-ge-bg');
     $('ul li').filter(function(index) { return $(this).text() === "FIWARE GEis"; }).closest('div').parent().prev().addClass('fiware-ge-bg');
-
-    $('#block-views-exp-api-list-page').addClass('filter-bar');
     $('#block-views-exp-api-list-page').prepend('<h4>filters</h4>');
     
     $('#edit-filter-wrapper').addClass('filter-search');
     $('#edit-filterchapters-wrapper').addClass('filter-chapters');
     $('#edit-filterranks-wrapper').addClass('filter-ranks');
-    $('#block-views-exp-api-list-page').wrap('<div class="col-md-2">');
+    $('#block-views-exp-api-list-page').wrap('<div class="col-md-2 filter-bar">');
     $('.view-api-list').addClass('col-md-10');
     $('.view-api-list').addClass('enabler-list-content');
 		$('a[href$="incubated-gesgeris"]').closest('div').addClass('incubated-ge');
@@ -63,9 +61,7 @@
                     $('ul li').filter(function(index) { return $(this).text() === "Archived GEis"; }).closest('div').parent().prev().addClass('archived-geis-bg');
     $('ul li').filter(function(index) { return $(this).text() === "FIWARE GEris"; }).closest('div').parent().prev().addClass('compliant-ge-bg');
     $('ul li').filter(function(index) { return $(this).text() === "Incubated GEs/GEris"; }).closest('div').parent().prev().addClass('incubated-ge-bg');
-    $('ul li').filter(function(index) { return $(this).text() === "FIWARE GEis"; }).closest('div').parent().prev().addClass('fiware-ge-bg');
-    
-    $('#block-views-exp-api-list-page').addClass('filter-bar');         
+    $('ul li').filter(function(index) { return $(this).text() === "FIWARE GEis"; }).closest('div').parent().prev().addClass('fiware-ge-bg');         
     $('#edit-filter-wrapper').addClass('filter-search');
     $('#edit-filterchapters-wrapper').addClass('filter-chapters');
     $('#edit-filterranks-wrapper').addClass('filter-ranks');
