@@ -68,5 +68,10 @@
     if (!$('article').hasClass('node-unpublished').length){
           $(".node-unpublished").append('<img class="img-notpublished" src="/sites/all/themes/fiwareSASS/images/not_published.png">');
      }
+    $('.view-api-list').addClass('col-md-10');
+    $('.view-api-list').addClass('enabler-list-content');
+    $('.jquery-once-1-processed').addClass('col-md-10');
+    $('.jquery-once-1-processed').addClass('enabler-list-content');
+
 });
 })(jQuery);
