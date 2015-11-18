@@ -41,9 +41,10 @@
     $('#edit-filter-wrapper').addClass('filter-search');
     $('#edit-filterchapters-wrapper').addClass('filter-chapters');
     $('#edit-filterranks-wrapper').addClass('filter-ranks');
-    $('#block-views-exp-api-list-page').wrap('<div class="col-md-2 filter-bar">');
+    $('#block-views-exp-api-list-page').wrap('<div class="col-md-2 col-xs-12 filter-bar">');
     $('.view-api-list').addClass('col-md-10');
     $('.view-api-list').addClass('enabler-list-content');
+    $('.view-api-list').addClass('col-xs-12');
 		$('a[href$="incubated-gesgeris"]').closest('div').addClass('incubated-ge');
 		$('a[href$="fiware-geis"]').closest('div').addClass('fiware-ge');
 		$('a[href$="fiware-geris"]').closest('div').addClass('compliant-ge');
@@ -72,6 +73,6 @@
     $('.view-api-list').addClass('enabler-list-content');
     $('.jquery-once-1-processed').addClass('col-md-10');
     $('.jquery-once-1-processed').addClass('enabler-list-content');
-
+    $('.jquery-once-1-processed').addClass('col-xs-12');
 });
 })(jQuery);
