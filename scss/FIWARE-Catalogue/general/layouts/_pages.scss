@@ -84,6 +84,35 @@ h1#page-title{
   clear: both;
   float: left;
 }
+.filter-bar {
+  padding: 0;
+  h4{
+    padding: 7px 0;
+    font-size: 1.5em
+  }
+  .filter-search{
+    margin-top: 13px;
+  }
+  .filter-chapters{
+    padding: 10px 0 !important;
+
+  }
+  .filter-ranks{
+    padding: 10px 0 !important;
+  }
+  .views-exposed-form {
+    .form-item{
+      margin: 0 0 10px 0;
+    }
+  }
+}
+
+.views-exposed-form {
+  label{
+    font-family: "NeoTechRegular" !important;
+    
+  }
+}
 
 #block-workbench-block {
   clear: both;
