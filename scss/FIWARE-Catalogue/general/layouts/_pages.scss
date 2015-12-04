@@ -110,7 +110,7 @@ h1#page-title{
 .views-exposed-form {
   label{
     font-family: "NeoTechRegular" !important;
-    
+
   }
 }
 
@@ -379,6 +379,6 @@ h1#page-title{
 
 .pane-content{
   @media (max-width: $screen-sm-min){
-    padding: 0 10px;
+    //padding: 0 10px;
   }
 }

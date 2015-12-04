@@ -42,7 +42,9 @@
   background-color: #acdfe8;
 
   .container-fluid{
-    padding: 3.5% 10%;
+    padding: 3.5% 0;
+    max-width: 1200px;
+    margin: 0px auto;
     min-height: 137px;
     @media (max-width: $screen-md) {
       padding: 20px;
