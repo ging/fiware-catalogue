@@ -72,7 +72,6 @@ h1#page-title{
   padding: 0 !important;
 }
 
-
 .enabler-list-content{
   padding: 0;
   margin-top: 15px;
@@ -98,10 +97,38 @@ h1#page-title{
   }
   .filter-chapters, .filter-ranks{
     padding: 10px 0 !important;
+    max-width: 250px;
     .bef-checkboxes{
       padding-left: 17px;
       input[type="checkbox"]{
         margin-left: -17px;
+      }
+    }
+  }
+  .views-submit-button{
+    .ajax-progress{
+      opacity: 0.6;
+      position: absolute;
+      background-color: black;
+      width: 250px;
+      padding: 20px;
+      top: 35%;
+      left: 305%;
+      z-index: 9999;
+      border-radius: 5px;
+      .icon-progress{
+        font-size: 1.9em;
+        margin: 0 auto;
+        color: white;
+        text-align: center;
+      }
+      .text-progress{
+        font-family: "NeoTechRegular";
+        font-size: 1.1em;
+        margin: 0 auto;
+        color: white;
+        text-align: center;
+        padding: 5px;
       }
     }
   }
@@ -111,7 +138,21 @@ h1#page-title{
     }
   }
   @media (max-width: $screen-md-min){
-      padding: 10px !important;
+    padding: 10px !important;
+    .views-submit-button{
+      .ajax-progress{
+        top: 50%;
+        left: 32%;
+      }
+    }
+  }
+  @media (max-width: $screen-xs-min){
+    .views-submit-button{
+      .ajax-progress{
+        top: 50%;
+        left: 16%;
+      }
+    }
   }
 }
 
