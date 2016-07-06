@@ -1,0 +1,59 @@
+.page-node, .page-devices, .page-hardware{
+  #main-wrapper{
+    .container-fluid{
+      padding: 0;
+      .block-menu{
+        .menu{
+          padding: 0;
+          li{
+            display: inline-block;
+            padding: 10px;
+          }
+          li.active-trail{
+            border-bottom: 3px solid $brand-secundary;
+            a{
+              color: $brand-secundary;
+            }
+          }
+        }
+      }
+      .block-system{
+        h4{
+          padding: 15px 0;
+        }
+        /* about page */
+        .outs{
+          width: 462px;
+          margin: 0 auto;
+          display: block;
+          padding-top: 50px;
+          text-align: center;
+        }
+        .btnabout{
+          width: 183px;
+          margin: 0 auto;
+          padding-top: 50px;
+          cursor: pointer;
+        }
+        /* device page */
+        .node-device, .node-hardware{
+          .content{
+            .field-name-field-api-icon{
+              .field-items{
+                float: left;
+              }
+            }
+            .field-name-body{
+              .texto, h5, .modulo{
+                padding: 0 0 0 100px;
+              }
+              .texto{
+                max-width: 700px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
