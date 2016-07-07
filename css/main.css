@@ -383,7 +383,7 @@ html {
 body {
   font-family: "Verdana", sans-serif;
   font-size: 13px;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   color: #5B5B5F;
   background-color: #fff;
 }
@@ -435,7 +435,7 @@ img {
 /* line 78, ../scss/bootstrap/_scaffolding.scss */
 .img-thumbnail {
   padding: 4px;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 3px;
@@ -711,7 +711,7 @@ dl {
 /* line 177, ../scss/bootstrap/_type.scss */
 dt,
 dd {
-  line-height: 1.428571429;
+  line-height: 1.42857143;
 }
 
 /* line 181, ../scss/bootstrap/_type.scss */
@@ -782,7 +782,7 @@ blockquote p:last-child {
 blockquote small,
 blockquote .small {
   display: block;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   color: #c2c2c2;
 }
 /* line 242, ../scss/bootstrap/_type.scss */
@@ -824,7 +824,7 @@ blockquote:after {
 address {
   margin-bottom: 18px;
   font-style: normal;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
 }
 
 /* line 7, ../scss/bootstrap/_code.scss */
@@ -851,7 +851,7 @@ pre {
   padding: 8.5px;
   margin: 0 0 9px;
   font-size: 12px;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   word-break: break-all;
   word-wrap: break-word;
   color: #5B5B5F;
@@ -940,12 +940,12 @@ pre code {
 
 /* line 742, ../scss/bootstrap/_mixins.scss */
 .col-xs-1 {
-  width: 8.3333333333%;
+  width: 8.33333333%;
 }
 
 /* line 742, ../scss/bootstrap/_mixins.scss */
 .col-xs-2 {
-  width: 16.6666666667%;
+  width: 16.66666667%;
 }
 
 /* line 742, ../scss/bootstrap/_mixins.scss */
@@ -955,12 +955,12 @@ pre code {
 
 /* line 742, ../scss/bootstrap/_mixins.scss */
 .col-xs-4 {
-  width: 33.3333333333%;
+  width: 33.33333333%;
 }
 
 /* line 742, ../scss/bootstrap/_mixins.scss */
 .col-xs-5 {
-  width: 41.6666666667%;
+  width: 41.66666667%;
 }
 
 /* line 742, ../scss/bootstrap/_mixins.scss */
@@ -970,12 +970,12 @@ pre code {
 
 /* line 742, ../scss/bootstrap/_mixins.scss */
 .col-xs-7 {
-  width: 58.3333333333%;
+  width: 58.33333333%;
 }
 
 /* line 742, ../scss/bootstrap/_mixins.scss */
 .col-xs-8 {
-  width: 66.6666666667%;
+  width: 66.66666667%;
 }
 
 /* line 742, ../scss/bootstrap/_mixins.scss */
@@ -985,12 +985,12 @@ pre code {
 
 /* line 742, ../scss/bootstrap/_mixins.scss */
 .col-xs-10 {
-  width: 83.3333333333%;
+  width: 83.33333333%;
 }
 
 /* line 742, ../scss/bootstrap/_mixins.scss */
 .col-xs-11 {
-  width: 91.6666666667%;
+  width: 91.66666667%;
 }
 
 /* line 742, ../scss/bootstrap/_mixins.scss */
@@ -1005,12 +1005,12 @@ pre code {
 
 /* line 752, ../scss/bootstrap/_mixins.scss */
 .col-xs-pull-1 {
-  right: 8.3333333333%;
+  right: 8.33333333%;
 }
 
 /* line 752, ../scss/bootstrap/_mixins.scss */
 .col-xs-pull-2 {
-  right: 16.6666666667%;
+  right: 16.66666667%;
 }
 
 /* line 752, ../scss/bootstrap/_mixins.scss */
@@ -1020,12 +1020,12 @@ pre code {
 
 /* line 752, ../scss/bootstrap/_mixins.scss */
 .col-xs-pull-4 {
-  right: 33.3333333333%;
+  right: 33.33333333%;
 }
 
 /* line 752, ../scss/bootstrap/_mixins.scss */
 .col-xs-pull-5 {
-  right: 41.6666666667%;
+  right: 41.66666667%;
 }
 
 /* line 752, ../scss/bootstrap/_mixins.scss */
@@ -1035,12 +1035,12 @@ pre code {
 
 /* line 752, ../scss/bootstrap/_mixins.scss */
 .col-xs-pull-7 {
-  right: 58.3333333333%;
+  right: 58.33333333%;
 }
 
 /* line 752, ../scss/bootstrap/_mixins.scss */
 .col-xs-pull-8 {
-  right: 66.6666666667%;
+  right: 66.66666667%;
 }
 
 /* line 752, ../scss/bootstrap/_mixins.scss */
@@ -1050,12 +1050,12 @@ pre code {
 
 /* line 752, ../scss/bootstrap/_mixins.scss */
 .col-xs-pull-10 {
-  right: 83.3333333333%;
+  right: 83.33333333%;
 }
 
 /* line 752, ../scss/bootstrap/_mixins.scss */
 .col-xs-pull-11 {
-  right: 91.6666666667%;
+  right: 91.66666667%;
 }
 
 /* line 752, ../scss/bootstrap/_mixins.scss */
@@ -1070,12 +1070,12 @@ pre code {
 
 /* line 747, ../scss/bootstrap/_mixins.scss */
 .col-xs-push-1 {
-  left: 8.3333333333%;
+  left: 8.33333333%;
 }
 
 /* line 747, ../scss/bootstrap/_mixins.scss */
 .col-xs-push-2 {
-  left: 16.6666666667%;
+  left: 16.66666667%;
 }
 
 /* line 747, ../scss/bootstrap/_mixins.scss */
@@ -1085,12 +1085,12 @@ pre code {
 
 /* line 747, ../scss/bootstrap/_mixins.scss */
 .col-xs-push-4 {
-  left: 33.3333333333%;
+  left: 33.33333333%;
 }
 
 /* line 747, ../scss/bootstrap/_mixins.scss */
 .col-xs-push-5 {
-  left: 41.6666666667%;
+  left: 41.66666667%;
 }
 
 /* line 747, ../scss/bootstrap/_mixins.scss */
@@ -1100,12 +1100,12 @@ pre code {
 
 /* line 747, ../scss/bootstrap/_mixins.scss */
 .col-xs-push-7 {
-  left: 58.3333333333%;
+  left: 58.33333333%;
 }
 
 /* line 747, ../scss/bootstrap/_mixins.scss */
 .col-xs-push-8 {
-  left: 66.6666666667%;
+  left: 66.66666667%;
 }
 
 /* line 747, ../scss/bootstrap/_mixins.scss */
@@ -1115,12 +1115,12 @@ pre code {
 
 /* line 747, ../scss/bootstrap/_mixins.scss */
 .col-xs-push-10 {
-  left: 83.3333333333%;
+  left: 83.33333333%;
 }
 
 /* line 747, ../scss/bootstrap/_mixins.scss */
 .col-xs-push-11 {
-  left: 91.6666666667%;
+  left: 91.66666667%;
 }
 
 /* line 747, ../scss/bootstrap/_mixins.scss */
@@ -1135,12 +1135,12 @@ pre code {
 
 /* line 757, ../scss/bootstrap/_mixins.scss */
 .col-xs-offset-1 {
-  margin-left: 8.3333333333%;
+  margin-left: 8.33333333%;
 }
 
 /* line 757, ../scss/bootstrap/_mixins.scss */
 .col-xs-offset-2 {
-  margin-left: 16.6666666667%;
+  margin-left: 16.66666667%;
 }
 
 /* line 757, ../scss/bootstrap/_mixins.scss */
@@ -1150,12 +1150,12 @@ pre code {
 
 /* line 757, ../scss/bootstrap/_mixins.scss */
 .col-xs-offset-4 {
-  margin-left: 33.3333333333%;
+  margin-left: 33.33333333%;
 }
 
 /* line 757, ../scss/bootstrap/_mixins.scss */
 .col-xs-offset-5 {
-  margin-left: 41.6666666667%;
+  margin-left: 41.66666667%;
 }
 
 /* line 757, ../scss/bootstrap/_mixins.scss */
@@ -1165,12 +1165,12 @@ pre code {
 
 /* line 757, ../scss/bootstrap/_mixins.scss */
 .col-xs-offset-7 {
-  margin-left: 58.3333333333%;
+  margin-left: 58.33333333%;
 }
 
 /* line 757, ../scss/bootstrap/_mixins.scss */
 .col-xs-offset-8 {
-  margin-left: 66.6666666667%;
+  margin-left: 66.66666667%;
 }
 
 /* line 757, ../scss/bootstrap/_mixins.scss */
@@ -1180,12 +1180,12 @@ pre code {
 
 /* line 757, ../scss/bootstrap/_mixins.scss */
 .col-xs-offset-10 {
-  margin-left: 83.3333333333%;
+  margin-left: 83.33333333%;
 }
 
 /* line 757, ../scss/bootstrap/_mixins.scss */
 .col-xs-offset-11 {
-  margin-left: 91.6666666667%;
+  margin-left: 91.66666667%;
 }
 
 /* line 757, ../scss/bootstrap/_mixins.scss */
@@ -1201,12 +1201,12 @@ pre code {
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
   .col-sm-1 {
-    width: 8.3333333333%;
+    width: 8.33333333%;
   }
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
   .col-sm-2 {
-    width: 16.6666666667%;
+    width: 16.66666667%;
   }
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
@@ -1216,12 +1216,12 @@ pre code {
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
   .col-sm-4 {
-    width: 33.3333333333%;
+    width: 33.33333333%;
   }
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
   .col-sm-5 {
-    width: 41.6666666667%;
+    width: 41.66666667%;
   }
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
@@ -1231,12 +1231,12 @@ pre code {
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
   .col-sm-7 {
-    width: 58.3333333333%;
+    width: 58.33333333%;
   }
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
   .col-sm-8 {
-    width: 66.6666666667%;
+    width: 66.66666667%;
   }
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
@@ -1246,12 +1246,12 @@ pre code {
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
   .col-sm-10 {
-    width: 83.3333333333%;
+    width: 83.33333333%;
   }
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
   .col-sm-11 {
-    width: 91.6666666667%;
+    width: 91.66666667%;
   }
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
@@ -1266,12 +1266,12 @@ pre code {
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
   .col-sm-pull-1 {
-    right: 8.3333333333%;
+    right: 8.33333333%;
   }
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
   .col-sm-pull-2 {
-    right: 16.6666666667%;
+    right: 16.66666667%;
   }
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
@@ -1281,12 +1281,12 @@ pre code {
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
   .col-sm-pull-4 {
-    right: 33.3333333333%;
+    right: 33.33333333%;
   }
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
   .col-sm-pull-5 {
-    right: 41.6666666667%;
+    right: 41.66666667%;
   }
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
@@ -1296,12 +1296,12 @@ pre code {
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
   .col-sm-pull-7 {
-    right: 58.3333333333%;
+    right: 58.33333333%;
   }
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
   .col-sm-pull-8 {
-    right: 66.6666666667%;
+    right: 66.66666667%;
   }
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
@@ -1311,12 +1311,12 @@ pre code {
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
   .col-sm-pull-10 {
-    right: 83.3333333333%;
+    right: 83.33333333%;
   }
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
   .col-sm-pull-11 {
-    right: 91.6666666667%;
+    right: 91.66666667%;
   }
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
@@ -1331,12 +1331,12 @@ pre code {
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
   .col-sm-push-1 {
-    left: 8.3333333333%;
+    left: 8.33333333%;
   }
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
   .col-sm-push-2 {
-    left: 16.6666666667%;
+    left: 16.66666667%;
   }
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
@@ -1346,12 +1346,12 @@ pre code {
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
   .col-sm-push-4 {
-    left: 33.3333333333%;
+    left: 33.33333333%;
   }
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
   .col-sm-push-5 {
-    left: 41.6666666667%;
+    left: 41.66666667%;
   }
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
@@ -1361,12 +1361,12 @@ pre code {
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
   .col-sm-push-7 {
-    left: 58.3333333333%;
+    left: 58.33333333%;
   }
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
   .col-sm-push-8 {
-    left: 66.6666666667%;
+    left: 66.66666667%;
   }
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
@@ -1376,12 +1376,12 @@ pre code {
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
   .col-sm-push-10 {
-    left: 83.3333333333%;
+    left: 83.33333333%;
   }
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
   .col-sm-push-11 {
-    left: 91.6666666667%;
+    left: 91.66666667%;
   }
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
@@ -1396,12 +1396,12 @@ pre code {
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
   .col-sm-offset-1 {
-    margin-left: 8.3333333333%;
+    margin-left: 8.33333333%;
   }
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
   .col-sm-offset-2 {
-    margin-left: 16.6666666667%;
+    margin-left: 16.66666667%;
   }
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
@@ -1411,12 +1411,12 @@ pre code {
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
   .col-sm-offset-4 {
-    margin-left: 33.3333333333%;
+    margin-left: 33.33333333%;
   }
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
   .col-sm-offset-5 {
-    margin-left: 41.6666666667%;
+    margin-left: 41.66666667%;
   }
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
@@ -1426,12 +1426,12 @@ pre code {
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
   .col-sm-offset-7 {
-    margin-left: 58.3333333333%;
+    margin-left: 58.33333333%;
   }
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
   .col-sm-offset-8 {
-    margin-left: 66.6666666667%;
+    margin-left: 66.66666667%;
   }
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
@@ -1441,12 +1441,12 @@ pre code {
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
   .col-sm-offset-10 {
-    margin-left: 83.3333333333%;
+    margin-left: 83.33333333%;
   }
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
   .col-sm-offset-11 {
-    margin-left: 91.6666666667%;
+    margin-left: 91.66666667%;
   }
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
@@ -1462,12 +1462,12 @@ pre code {
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
   .col-md-1 {
-    width: 8.3333333333%;
+    width: 8.33333333%;
   }
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
   .col-md-2 {
-    width: 16.6666666667%;
+    width: 16.66666667%;
   }
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
@@ -1477,12 +1477,12 @@ pre code {
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
   .col-md-4 {
-    width: 33.3333333333%;
+    width: 33.33333333%;
   }
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
   .col-md-5 {
-    width: 41.6666666667%;
+    width: 41.66666667%;
   }
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
@@ -1492,12 +1492,12 @@ pre code {
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
   .col-md-7 {
-    width: 58.3333333333%;
+    width: 58.33333333%;
   }
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
   .col-md-8 {
-    width: 66.6666666667%;
+    width: 66.66666667%;
   }
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
@@ -1507,12 +1507,12 @@ pre code {
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
   .col-md-10 {
-    width: 83.3333333333%;
+    width: 83.33333333%;
   }
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
   .col-md-11 {
-    width: 91.6666666667%;
+    width: 91.66666667%;
   }
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
@@ -1527,12 +1527,12 @@ pre code {
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
   .col-md-pull-1 {
-    right: 8.3333333333%;
+    right: 8.33333333%;
   }
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
   .col-md-pull-2 {
-    right: 16.6666666667%;
+    right: 16.66666667%;
   }
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
@@ -1542,12 +1542,12 @@ pre code {
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
   .col-md-pull-4 {
-    right: 33.3333333333%;
+    right: 33.33333333%;
   }
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
   .col-md-pull-5 {
-    right: 41.6666666667%;
+    right: 41.66666667%;
   }
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
@@ -1557,12 +1557,12 @@ pre code {
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
   .col-md-pull-7 {
-    right: 58.3333333333%;
+    right: 58.33333333%;
   }
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
   .col-md-pull-8 {
-    right: 66.6666666667%;
+    right: 66.66666667%;
   }
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
@@ -1572,12 +1572,12 @@ pre code {
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
   .col-md-pull-10 {
-    right: 83.3333333333%;
+    right: 83.33333333%;
   }
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
   .col-md-pull-11 {
-    right: 91.6666666667%;
+    right: 91.66666667%;
   }
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
@@ -1592,12 +1592,12 @@ pre code {
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
   .col-md-push-1 {
-    left: 8.3333333333%;
+    left: 8.33333333%;
   }
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
   .col-md-push-2 {
-    left: 16.6666666667%;
+    left: 16.66666667%;
   }
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
@@ -1607,12 +1607,12 @@ pre code {
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
   .col-md-push-4 {
-    left: 33.3333333333%;
+    left: 33.33333333%;
   }
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
   .col-md-push-5 {
-    left: 41.6666666667%;
+    left: 41.66666667%;
   }
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
@@ -1622,12 +1622,12 @@ pre code {
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
   .col-md-push-7 {
-    left: 58.3333333333%;
+    left: 58.33333333%;
   }
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
   .col-md-push-8 {
-    left: 66.6666666667%;
+    left: 66.66666667%;
   }
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
@@ -1637,12 +1637,12 @@ pre code {
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
   .col-md-push-10 {
-    left: 83.3333333333%;
+    left: 83.33333333%;
   }
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
   .col-md-push-11 {
-    left: 91.6666666667%;
+    left: 91.66666667%;
   }
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
@@ -1657,12 +1657,12 @@ pre code {
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
   .col-md-offset-1 {
-    margin-left: 8.3333333333%;
+    margin-left: 8.33333333%;
   }
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
   .col-md-offset-2 {
-    margin-left: 16.6666666667%;
+    margin-left: 16.66666667%;
   }
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
@@ -1672,12 +1672,12 @@ pre code {
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
   .col-md-offset-4 {
-    margin-left: 33.3333333333%;
+    margin-left: 33.33333333%;
   }
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
   .col-md-offset-5 {
-    margin-left: 41.6666666667%;
+    margin-left: 41.66666667%;
   }
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
@@ -1687,12 +1687,12 @@ pre code {
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
   .col-md-offset-7 {
-    margin-left: 58.3333333333%;
+    margin-left: 58.33333333%;
   }
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
   .col-md-offset-8 {
-    margin-left: 66.6666666667%;
+    margin-left: 66.66666667%;
   }
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
@@ -1702,12 +1702,12 @@ pre code {
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
   .col-md-offset-10 {
-    margin-left: 83.3333333333%;
+    margin-left: 83.33333333%;
   }
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
   .col-md-offset-11 {
-    margin-left: 91.6666666667%;
+    margin-left: 91.66666667%;
   }
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
@@ -1723,12 +1723,12 @@ pre code {
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
   .col-lg-1 {
-    width: 8.3333333333%;
+    width: 8.33333333%;
   }
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
   .col-lg-2 {
-    width: 16.6666666667%;
+    width: 16.66666667%;
   }
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
@@ -1738,12 +1738,12 @@ pre code {
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
   .col-lg-4 {
-    width: 33.3333333333%;
+    width: 33.33333333%;
   }
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
   .col-lg-5 {
-    width: 41.6666666667%;
+    width: 41.66666667%;
   }
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
@@ -1753,12 +1753,12 @@ pre code {
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
   .col-lg-7 {
-    width: 58.3333333333%;
+    width: 58.33333333%;
   }
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
   .col-lg-8 {
-    width: 66.6666666667%;
+    width: 66.66666667%;
   }
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
@@ -1768,12 +1768,12 @@ pre code {
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
   .col-lg-10 {
-    width: 83.3333333333%;
+    width: 83.33333333%;
   }
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
   .col-lg-11 {
-    width: 91.6666666667%;
+    width: 91.66666667%;
   }
 
   /* line 742, ../scss/bootstrap/_mixins.scss */
@@ -1788,12 +1788,12 @@ pre code {
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
   .col-lg-pull-1 {
-    right: 8.3333333333%;
+    right: 8.33333333%;
   }
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
   .col-lg-pull-2 {
-    right: 16.6666666667%;
+    right: 16.66666667%;
   }
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
@@ -1803,12 +1803,12 @@ pre code {
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
   .col-lg-pull-4 {
-    right: 33.3333333333%;
+    right: 33.33333333%;
   }
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
   .col-lg-pull-5 {
-    right: 41.6666666667%;
+    right: 41.66666667%;
   }
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
@@ -1818,12 +1818,12 @@ pre code {
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
   .col-lg-pull-7 {
-    right: 58.3333333333%;
+    right: 58.33333333%;
   }
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
   .col-lg-pull-8 {
-    right: 66.6666666667%;
+    right: 66.66666667%;
   }
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
@@ -1833,12 +1833,12 @@ pre code {
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
   .col-lg-pull-10 {
-    right: 83.3333333333%;
+    right: 83.33333333%;
   }
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
   .col-lg-pull-11 {
-    right: 91.6666666667%;
+    right: 91.66666667%;
   }
 
   /* line 752, ../scss/bootstrap/_mixins.scss */
@@ -1853,12 +1853,12 @@ pre code {
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
   .col-lg-push-1 {
-    left: 8.3333333333%;
+    left: 8.33333333%;
   }
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
   .col-lg-push-2 {
-    left: 16.6666666667%;
+    left: 16.66666667%;
   }
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
@@ -1868,12 +1868,12 @@ pre code {
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
   .col-lg-push-4 {
-    left: 33.3333333333%;
+    left: 33.33333333%;
   }
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
   .col-lg-push-5 {
-    left: 41.6666666667%;
+    left: 41.66666667%;
   }
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
@@ -1883,12 +1883,12 @@ pre code {
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
   .col-lg-push-7 {
-    left: 58.3333333333%;
+    left: 58.33333333%;
   }
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
   .col-lg-push-8 {
-    left: 66.6666666667%;
+    left: 66.66666667%;
   }
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
@@ -1898,12 +1898,12 @@ pre code {
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
   .col-lg-push-10 {
-    left: 83.3333333333%;
+    left: 83.33333333%;
   }
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
   .col-lg-push-11 {
-    left: 91.6666666667%;
+    left: 91.66666667%;
   }
 
   /* line 747, ../scss/bootstrap/_mixins.scss */
@@ -1918,12 +1918,12 @@ pre code {
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
   .col-lg-offset-1 {
-    margin-left: 8.3333333333%;
+    margin-left: 8.33333333%;
   }
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
   .col-lg-offset-2 {
-    margin-left: 16.6666666667%;
+    margin-left: 16.66666667%;
   }
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
@@ -1933,12 +1933,12 @@ pre code {
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
   .col-lg-offset-4 {
-    margin-left: 33.3333333333%;
+    margin-left: 33.33333333%;
   }
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
   .col-lg-offset-5 {
-    margin-left: 41.6666666667%;
+    margin-left: 41.66666667%;
   }
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
@@ -1948,12 +1948,12 @@ pre code {
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
   .col-lg-offset-7 {
-    margin-left: 58.3333333333%;
+    margin-left: 58.33333333%;
   }
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
   .col-lg-offset-8 {
-    margin-left: 66.6666666667%;
+    margin-left: 66.66666667%;
   }
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
@@ -1963,12 +1963,12 @@ pre code {
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
   .col-lg-offset-10 {
-    margin-left: 83.3333333333%;
+    margin-left: 83.33333333%;
   }
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
   .col-lg-offset-11 {
-    margin-left: 91.6666666667%;
+    margin-left: 91.66666667%;
   }
 
   /* line 757, ../scss/bootstrap/_mixins.scss */
@@ -2015,7 +2015,7 @@ th {
 .table > tfoot > tr > th,
 .table > tfoot > tr > td {
   padding: 8px;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   vertical-align: top;
   border-top: 1px solid #dddddd;
 }
@@ -2337,7 +2337,7 @@ output {
   display: block;
   padding-top: 13px;
   font-size: 13px;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   color: #5B5B5F;
   vertical-align: middle;
 }
@@ -2349,7 +2349,7 @@ output {
   height: 44px;
   padding: 12px 6px;
   font-size: 13px;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   color: #5B5B5F;
   vertical-align: middle;
   background-color: #fff;
@@ -2730,7 +2730,7 @@ textarea.input-lg, .input-group-lg > textarea.form-control,
   white-space: nowrap;
   padding: 12px 6px;
   font-size: 13px;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   border-radius: 3px;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -3160,8 +3160,8 @@ input[type="button"].btn-block {
 
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("/fonts/bootstrap/glyphicons-halflings-regular.eot");
-  src: url("/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("/fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("/fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons-halflingsregular") format("svg");
+  src: url(twbs-font-path("bootstrap/glyphicons-halflings-regular.eot"));
+  src: url(twbs-font-path("bootstrap/glyphicons-halflings-regular.eot?#iefix")) format("embedded-opentype"), url(twbs-font-path("bootstrap/glyphicons-halflings-regular.woff")) format("woff"), url(twbs-font-path("bootstrap/glyphicons-halflings-regular.ttf")) format("truetype"), url(twbs-font-path("bootstrap/glyphicons-halflings-regular.svg#glyphicons-halflingsregular")) format("svg");
 }
 /* line 21, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon {
@@ -4241,7 +4241,7 @@ input[type="button"].btn-block {
   padding: 3px 20px;
   clear: both;
   font-weight: normal;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   color: #5B5B5F;
   white-space: nowrap;
 }
@@ -4289,7 +4289,7 @@ input[type="button"].btn-block {
   display: block;
   padding: 3px 20px;
   font-size: 12px;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   color: #c2c2c2;
 }
 
@@ -4985,7 +4985,7 @@ input[type="button"].btn-block {
 /* line 94, ../scss/bootstrap/_navs.scss */
 .nav-tabs > li > a {
   margin-right: 2px;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   border: 1px solid transparent;
   border-radius: 3px 3px 0 0;
 }
@@ -5690,7 +5690,7 @@ input[type="button"].btn-block {
   position: relative;
   float: left;
   padding: 12px 6px;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   text-decoration: none;
   background-color: #fff;
   border: 1px solid #ddd;
@@ -5967,7 +5967,7 @@ a.list-group-item.active > .badge,
   margin-bottom: 30px;
   font-size: 20px;
   font-weight: 200;
-  line-height: 2.1428571435;
+  line-height: 2.14285714;
   color: inherit;
   background-color: #f1f1f2;
 }
@@ -6012,7 +6012,7 @@ a.list-group-item.active > .badge,
   display: block;
   padding: 4px;
   margin-bottom: 18px;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 3px;
@@ -6805,7 +6805,7 @@ button.close {
 .modal-header {
   padding: 14px 15px 15px;
   border-bottom: 1px solid #c2c2c2;
-  min-height: 14px 15px 15px1.428571429;
+  min-height: 14px 15px 15px1.42857143;
 }
 
 /* line 78, ../scss/bootstrap/_modals.scss */
@@ -6816,7 +6816,7 @@ button.close {
 /* line 83, ../scss/bootstrap/_modals.scss */
 .modal-title {
   margin: 0;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
 }
 
 /* line 90, ../scss/bootstrap/_modals.scss */
@@ -9154,7 +9154,7 @@ h1#page-title {
   /* line 151, ../scss/FIWARE-Catalogue/general/layouts/_pages.scss */
   .filter-bar .views-submit-button .ajax-progress {
     top: 50%;
-    left: 15%;
+    left: 16%;
   }
 }
 
@@ -9583,14 +9583,14 @@ h1#page-title {
   /* line 4, ../scss/FIWARE-Catalogue/general/mixins/edit-create_no-modal.scss */
   .page-node-edit #block-system-main .content {
     float: left;
-    width: 83.3333333333%;
+    width: 83.33333333%;
   }
 }
 @media (min-width: 992px) {
   /* line 4, ../scss/FIWARE-Catalogue/general/mixins/edit-create_no-modal.scss */
   .page-node-edit #block-system-main .content {
     float: left;
-    width: 58.3333333333%;
+    width: 58.33333333%;
   }
 }
 /* line 11, ../scss/FIWARE-Catalogue/general/mixins/edit-create_no-modal.scss */
@@ -9773,21 +9773,21 @@ footer.footer .cred-left {
   /* line 51, ../scss/FIWARE-Catalogue/general/layouts/_footer.scss */
   footer.footer .cred-left {
     float: left;
-    width: 66.6666666667%;
+    width: 66.66666667%;
   }
 }
 @media (min-width: 992px) {
   /* line 51, ../scss/FIWARE-Catalogue/general/layouts/_footer.scss */
   footer.footer .cred-left {
     float: left;
-    width: 66.6666666667%;
+    width: 66.66666667%;
   }
 }
 @media (min-width: 1200px) {
   /* line 51, ../scss/FIWARE-Catalogue/general/layouts/_footer.scss */
   footer.footer .cred-left {
     float: left;
-    width: 66.6666666667%;
+    width: 66.66666667%;
   }
 }
 /* line 58, ../scss/FIWARE-Catalogue/general/layouts/_footer.scss */
@@ -9813,21 +9813,21 @@ footer.footer .cred-right {
   /* line 63, ../scss/FIWARE-Catalogue/general/layouts/_footer.scss */
   footer.footer .cred-right {
     float: left;
-    width: 33.3333333333%;
+    width: 33.33333333%;
   }
 }
 @media (min-width: 992px) {
   /* line 63, ../scss/FIWARE-Catalogue/general/layouts/_footer.scss */
   footer.footer .cred-right {
     float: left;
-    width: 33.3333333333%;
+    width: 33.33333333%;
   }
 }
 @media (min-width: 1200px) {
   /* line 63, ../scss/FIWARE-Catalogue/general/layouts/_footer.scss */
   footer.footer .cred-right {
     float: left;
-    width: 33.3333333333%;
+    width: 33.33333333%;
   }
 }
 /* line 67, ../scss/FIWARE-Catalogue/general/layouts/_footer.scss */
@@ -9873,39 +9873,39 @@ body > .wrap {
   /* line 30, ../scss/FIWARE-Catalogue/general/mixins/pages.scss */
   #catalogue .row.sub-footer .fw-academy {
     float: left;
-    width: 33.3333333333%;
+    width: 33.33333333%;
   }
 }
 @media (min-width: 992px) {
   /* line 30, ../scss/FIWARE-Catalogue/general/mixins/pages.scss */
   #catalogue .row.sub-footer .fw-academy {
     float: left;
-    width: 33.3333333333%;
+    width: 33.33333333%;
   }
 }
 @media (min-width: 1200px) {
   /* line 30, ../scss/FIWARE-Catalogue/general/mixins/pages.scss */
   #catalogue .row.sub-footer .fw-academy {
     float: left;
-    width: 33.3333333333%;
+    width: 33.33333333%;
   }
 }
 @media (min-width: 992px) {
   /* line 30, ../scss/FIWARE-Catalogue/general/mixins/pages.scss */
   #catalogue .row.sub-footer .fw-academy {
-    margin-left: 8.3333333333%;
+    margin-left: 8.33333333%;
   }
 }
 @media (min-width: 1200px) {
   /* line 30, ../scss/FIWARE-Catalogue/general/mixins/pages.scss */
   #catalogue .row.sub-footer .fw-academy {
-    margin-left: 8.3333333333%;
+    margin-left: 8.33333333%;
   }
 }
 @media (min-width: 768px) {
   /* line 30, ../scss/FIWARE-Catalogue/general/mixins/pages.scss */
   #catalogue .row.sub-footer .fw-academy {
-    margin-left: 8.3333333333%;
+    margin-left: 8.33333333%;
   }
 }
 @media (max-width: 768px) {
@@ -9972,19 +9972,19 @@ body > .wrap {
 @media (min-width: 768px) {
   /* line 53, ../scss/FIWARE-Catalogue/general/mixins/pages.scss */
   #catalogue .row.sub-footer img {
-    margin-left: 8.3333333333%;
+    margin-left: 8.33333333%;
   }
 }
 @media (min-width: 992px) {
   /* line 53, ../scss/FIWARE-Catalogue/general/mixins/pages.scss */
   #catalogue .row.sub-footer img {
-    margin-left: 8.3333333333%;
+    margin-left: 8.33333333%;
   }
 }
 @media (min-width: 1200px) {
   /* line 53, ../scss/FIWARE-Catalogue/general/mixins/pages.scss */
   #catalogue .row.sub-footer img {
-    margin-left: 8.3333333333%;
+    margin-left: 8.33333333%;
   }
 }
 @media (max-width: 768px) {
@@ -13485,14 +13485,14 @@ div.vertical-tabs ul.vertical-tabs-list li {
   /* line 364, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
   .page-node-add-instance #block-system-main .content {
     float: left;
-    width: 83.3333333333%;
+    width: 83.33333333%;
   }
 }
 @media (min-width: 992px) {
   /* line 364, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
   .page-node-add-instance #block-system-main .content {
     float: left;
-    width: 58.3333333333%;
+    width: 58.33333333%;
   }
 }
 /* line 371, ../scss/FIWARE-Catalogue/pages/_enabler.scss */
@@ -13570,14 +13570,14 @@ div.vertical-tabs ul.vertical-tabs-list li {
   /* line 4, ../scss/FIWARE-Catalogue/general/mixins/edit-create_no-modal.scss */
   .page-enablers-add-enabler #block-system-main .content {
     float: left;
-    width: 83.3333333333%;
+    width: 83.33333333%;
   }
 }
 @media (min-width: 992px) {
   /* line 4, ../scss/FIWARE-Catalogue/general/mixins/edit-create_no-modal.scss */
   .page-enablers-add-enabler #block-system-main .content {
     float: left;
-    width: 58.3333333333%;
+    width: 58.33333333%;
   }
 }
 /* line 11, ../scss/FIWARE-Catalogue/general/mixins/edit-create_no-modal.scss */
@@ -13699,14 +13699,14 @@ div.vertical-tabs ul.vertical-tabs-list li {
   /* line 4, ../scss/FIWARE-Catalogue/general/mixins/edit-create_no-modal.scss */
   .page-bundles-add-bundle #block-system-main .content {
     float: left;
-    width: 83.3333333333%;
+    width: 83.33333333%;
   }
 }
 @media (min-width: 992px) {
   /* line 4, ../scss/FIWARE-Catalogue/general/mixins/edit-create_no-modal.scss */
   .page-bundles-add-bundle #block-system-main .content {
     float: left;
-    width: 58.3333333333%;
+    width: 58.33333333%;
   }
 }
 /* line 11, ../scss/FIWARE-Catalogue/general/mixins/edit-create_no-modal.scss */
@@ -15250,6 +15250,64 @@ p.corporate {
   }
 }
 
+/* line 3, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
+.page-node #main-wrapper .container-fluid, .page-devices #main-wrapper .container-fluid, .page-hardware #main-wrapper .container-fluid {
+  padding: 0;
+}
+/* line 6, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
+.page-node #main-wrapper .container-fluid .block-menu .menu, .page-devices #main-wrapper .container-fluid .block-menu .menu, .page-hardware #main-wrapper .container-fluid .block-menu .menu {
+  padding: 0;
+}
+/* line 8, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
+.page-node #main-wrapper .container-fluid .block-menu .menu li, .page-devices #main-wrapper .container-fluid .block-menu .menu li, .page-hardware #main-wrapper .container-fluid .block-menu .menu li {
+  display: inline-block;
+  padding: 10px;
+}
+/* line 12, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
+.page-node #main-wrapper .container-fluid .block-menu .menu li.active-trail, .page-devices #main-wrapper .container-fluid .block-menu .menu li.active-trail, .page-hardware #main-wrapper .container-fluid .block-menu .menu li.active-trail {
+  border-bottom: 3px solid #59c0d2;
+}
+/* line 14, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
+.page-node #main-wrapper .container-fluid .block-menu .menu li.active-trail a, .page-devices #main-wrapper .container-fluid .block-menu .menu li.active-trail a, .page-hardware #main-wrapper .container-fluid .block-menu .menu li.active-trail a {
+  color: #59c0d2;
+}
+/* line 20, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
+.page-node #main-wrapper .container-fluid .block-system, .page-devices #main-wrapper .container-fluid .block-system, .page-hardware #main-wrapper .container-fluid .block-system {
+  /* about page */
+  /* device page */
+}
+/* line 21, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
+.page-node #main-wrapper .container-fluid .block-system h4, .page-node #main-wrapper .container-fluid .block-system article.node-enabler h2, article.node-enabler .page-node #main-wrapper .container-fluid .block-system h2, .page-node #main-wrapper .container-fluid .block-system article.node-bundle h2, article.node-bundle .page-node #main-wrapper .container-fluid .block-system h2, .page-node #main-wrapper .container-fluid .block-system .page-tools .view-content .views-row h2, .page-tools .view-content .views-row .page-node #main-wrapper .container-fluid .block-system h2, .page-devices #main-wrapper .container-fluid .block-system h4, .page-devices #main-wrapper .container-fluid .block-system article.node-enabler h2, article.node-enabler .page-devices #main-wrapper .container-fluid .block-system h2, .page-devices #main-wrapper .container-fluid .block-system article.node-bundle h2, article.node-bundle .page-devices #main-wrapper .container-fluid .block-system h2, .page-devices #main-wrapper .container-fluid .block-system .page-tools .view-content .views-row h2, .page-tools .view-content .views-row .page-devices #main-wrapper .container-fluid .block-system h2, .page-hardware #main-wrapper .container-fluid .block-system h4, .page-hardware #main-wrapper .container-fluid .block-system article.node-enabler h2, article.node-enabler .page-hardware #main-wrapper .container-fluid .block-system h2, .page-hardware #main-wrapper .container-fluid .block-system article.node-bundle h2, article.node-bundle .page-hardware #main-wrapper .container-fluid .block-system h2, .page-hardware #main-wrapper .container-fluid .block-system .page-tools .view-content .views-row h2, .page-tools .view-content .views-row .page-hardware #main-wrapper .container-fluid .block-system h2 {
+  padding: 15px 0;
+}
+/* line 25, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
+.page-node #main-wrapper .container-fluid .block-system .outs, .page-devices #main-wrapper .container-fluid .block-system .outs, .page-hardware #main-wrapper .container-fluid .block-system .outs {
+  width: 462px;
+  margin: 0 auto;
+  display: block;
+  padding-top: 50px;
+  text-align: center;
+}
+/* line 32, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
+.page-node #main-wrapper .container-fluid .block-system .btnabout, .page-devices #main-wrapper .container-fluid .block-system .btnabout, .page-hardware #main-wrapper .container-fluid .block-system .btnabout {
+  width: 183px;
+  margin: 0 auto;
+  padding-top: 50px;
+  cursor: pointer;
+}
+/* line 42, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
+.page-node #main-wrapper .container-fluid .block-system .node-device .content .field-name-field-api-icon .field-items, .page-node #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-field-api-icon .field-items, .page-devices #main-wrapper .container-fluid .block-system .node-device .content .field-name-field-api-icon .field-items, .page-devices #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-field-api-icon .field-items, .page-hardware #main-wrapper .container-fluid .block-system .node-device .content .field-name-field-api-icon .field-items, .page-hardware #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-field-api-icon .field-items {
+  float: left;
+}
+/* line 47, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
+.page-node #main-wrapper .container-fluid .block-system .node-device .content .field-name-body .texto, .page-node #main-wrapper .container-fluid .block-system .node-device .content .field-name-body h5, .page-node #main-wrapper .container-fluid .block-system .node-device .content .field-name-body .modulo, .page-node #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body .texto, .page-node #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body h5, .page-node #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body .modulo, .page-devices #main-wrapper .container-fluid .block-system .node-device .content .field-name-body .texto, .page-devices #main-wrapper .container-fluid .block-system .node-device .content .field-name-body h5, .page-devices #main-wrapper .container-fluid .block-system .node-device .content .field-name-body .modulo, .page-devices #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body .texto, .page-devices #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body h5, .page-devices #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body .modulo, .page-hardware #main-wrapper .container-fluid .block-system .node-device .content .field-name-body .texto, .page-hardware #main-wrapper .container-fluid .block-system .node-device .content .field-name-body h5, .page-hardware #main-wrapper .container-fluid .block-system .node-device .content .field-name-body .modulo, .page-hardware #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body .texto, .page-hardware #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body h5, .page-hardware #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body .modulo {
+  padding: 0 0 0 100px;
+}
+/* line 50, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
+.page-node #main-wrapper .container-fluid .block-system .node-device .content .field-name-body .texto, .page-node #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body .texto, .page-devices #main-wrapper .container-fluid .block-system .node-device .content .field-name-body .texto, .page-devices #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body .texto, .page-hardware #main-wrapper .container-fluid .block-system .node-device .content .field-name-body .texto, .page-hardware #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body .texto {
+  max-width: 700px;
+}
+
 /****************************** ENABLERS */
 /* line 4, ../scss/FIWARE-Catalogue/pages/_search.scss */
 .page-search form.search-form {
@@ -15453,14 +15511,14 @@ p.corporate {
   /* line 8, ../scss/FIWARE-Catalogue/pages/_tools.scss */
   .page-tools .view-content {
     float: left;
-    width: 66.6666666667%;
+    width: 66.66666667%;
   }
 }
 @media (min-width: 1200px) {
   /* line 8, ../scss/FIWARE-Catalogue/pages/_tools.scss */
   .page-tools .view-content {
     float: left;
-    width: 66.6666666667%;
+    width: 66.66666667%;
   }
 }
 /* line 14, ../scss/FIWARE-Catalogue/pages/_tools.scss */
@@ -15510,14 +15568,14 @@ p.corporate {
   /* line 4, ../scss/FIWARE-Catalogue/general/mixins/edit-create_no-modal.scss */
   .page-tools-add-tool-link #block-system-main .content {
     float: left;
-    width: 83.3333333333%;
+    width: 83.33333333%;
   }
 }
 @media (min-width: 992px) {
   /* line 4, ../scss/FIWARE-Catalogue/general/mixins/edit-create_no-modal.scss */
   .page-tools-add-tool-link #block-system-main .content {
     float: left;
-    width: 58.3333333333%;
+    width: 58.33333333%;
   }
 }
 /* line 11, ../scss/FIWARE-Catalogue/general/mixins/edit-create_no-modal.scss */
@@ -15639,14 +15697,14 @@ p.corporate {
   /* line 33, ../scss/FIWARE-Catalogue/pages/_tools.scss */
   .page-filter-tips #block-system-main .content {
     float: left;
-    width: 83.3333333333%;
+    width: 83.33333333%;
   }
 }
 @media (min-width: 992px) {
   /* line 33, ../scss/FIWARE-Catalogue/pages/_tools.scss */
   .page-filter-tips #block-system-main .content {
     float: left;
-    width: 83.3333333333%;
+    width: 83.33333333%;
   }
 }
 /* line 40, ../scss/FIWARE-Catalogue/pages/_tools.scss */
@@ -15837,14 +15895,14 @@ body.page-node .admin-list {
   /* line 125, ../scss/FIWARE-Catalogue/pages/_users.scss */
   body.page-node .admin-list {
     float: left;
-    width: 66.6666666667%;
+    width: 66.66666667%;
   }
 }
 @media (min-width: 1200px) {
   /* line 125, ../scss/FIWARE-Catalogue/pages/_users.scss */
   body.page-node .admin-list {
     float: left;
-    width: 66.6666666667%;
+    width: 66.66666667%;
   }
 }
 /* line 129, ../scss/FIWARE-Catalogue/pages/_users.scss */
@@ -15903,14 +15961,14 @@ body.page-node-group table#permissions {
   /* line 154, ../scss/FIWARE-Catalogue/pages/_users.scss */
   body.page-node-group table#permissions {
     float: left;
-    width: 66.6666666667%;
+    width: 66.66666667%;
   }
 }
 @media (min-width: 1200px) {
   /* line 154, ../scss/FIWARE-Catalogue/pages/_users.scss */
   body.page-node-group table#permissions {
     float: left;
-    width: 66.6666666667%;
+    width: 66.66666667%;
   }
 }
 /* line 162, ../scss/FIWARE-Catalogue/pages/_users.scss */
