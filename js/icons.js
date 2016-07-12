@@ -16,7 +16,6 @@
         	$('a[href$="terms-and-conditions-9"]').html('<i class="fa fa-list-ul"></i><span> Terms and conditions</span>');
 		$('a[href$="documentation-61"]').html('<i class="fa fa-book"></i><span> Documentation</span>');
 		$('a[href$="instances-56"]').html('<i class="fa fa-book"></i><span> Instances</span>');
-
 		$('a[href$="instances-23"]').html('<i class="fa fa-book"></i><span> Instances</span>');
 	        $('a[href$="downloads-45"]').html('<i class="fa fa-download"></i><span> Downloads</span>');
 		$('a[href$="downloads-55"]').html('<i class="fa fa-download"></i><span> Downloads</span>');
@@ -36,8 +35,11 @@
     $('ul li').filter(function(index) { return $(this).text() === "FIWARE GEris"; }).closest('div').parent().prev().addClass('compliant-ge-bg');
     $('ul li').filter(function(index) { return $(this).text() === "Incubated GEs/GEris"; }).closest('div').parent().prev().addClass('incubated-ge-bg');
     $('ul li').filter(function(index) { return $(this).text() === "FIWARE GEis"; }).closest('div').parent().prev().addClass('fiware-ge-bg');
+
     $('#block-views-exp-api-list-page').prepend('<h4>filters</h4>');
-    
+
+    $('.node-hardware').children().closest('h2').hide(); 
+    $('.node-device').children().closest('h2').hide();
     $('#edit-filter-wrapper').addClass('filter-search');
     $('#edit-filterchapters-wrapper').addClass('filter-chapters');
     $('#edit-filterranks-wrapper').addClass('filter-ranks');
