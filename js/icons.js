@@ -37,7 +37,7 @@
     $('ul li').filter(function(index) { return $(this).text() === "FIWARE GEis"; }).closest('div').parent().prev().addClass('fiware-ge-bg');
 
     $('#block-views-exp-api-list-page').prepend('<h4>filters</h4>');
-
+ $('#block-system-main').addClass('col-md-12');
     $('.node-hardware').children().closest('h2').hide(); 
     $('.node-device').children().closest('h2').hide();
     $('#edit-filter-wrapper').addClass('filter-search');
