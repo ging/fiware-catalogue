@@ -15263,24 +15263,30 @@ p.corporate {
   display: inline-block;
   padding: 10px;
 }
-/* line 12, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
+@media (max-width: 768px) {
+  /* line 13, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
+  .page-node #main-wrapper .container-fluid .block-menu .menu li, .page-devices #main-wrapper .container-fluid .block-menu .menu li, .page-hardware #main-wrapper .container-fluid .block-menu .menu li {
+    display: block;
+  }
+}
+/* line 17, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
 .page-node #main-wrapper .container-fluid .block-menu .menu li.active-trail, .page-devices #main-wrapper .container-fluid .block-menu .menu li.active-trail, .page-hardware #main-wrapper .container-fluid .block-menu .menu li.active-trail {
   border-bottom: 3px solid #59c0d2;
 }
-/* line 14, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
+/* line 19, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
 .page-node #main-wrapper .container-fluid .block-menu .menu li.active-trail a, .page-devices #main-wrapper .container-fluid .block-menu .menu li.active-trail a, .page-hardware #main-wrapper .container-fluid .block-menu .menu li.active-trail a {
   color: #59c0d2;
 }
-/* line 20, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
+/* line 25, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
 .page-node #main-wrapper .container-fluid .block-system, .page-devices #main-wrapper .container-fluid .block-system, .page-hardware #main-wrapper .container-fluid .block-system {
   /* about page */
   /* device page */
 }
-/* line 21, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
+/* line 26, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
 .page-node #main-wrapper .container-fluid .block-system h4, .page-node #main-wrapper .container-fluid .block-system article.node-enabler h2, article.node-enabler .page-node #main-wrapper .container-fluid .block-system h2, .page-node #main-wrapper .container-fluid .block-system article.node-bundle h2, article.node-bundle .page-node #main-wrapper .container-fluid .block-system h2, .page-node #main-wrapper .container-fluid .block-system .page-tools .view-content .views-row h2, .page-tools .view-content .views-row .page-node #main-wrapper .container-fluid .block-system h2, .page-devices #main-wrapper .container-fluid .block-system h4, .page-devices #main-wrapper .container-fluid .block-system article.node-enabler h2, article.node-enabler .page-devices #main-wrapper .container-fluid .block-system h2, .page-devices #main-wrapper .container-fluid .block-system article.node-bundle h2, article.node-bundle .page-devices #main-wrapper .container-fluid .block-system h2, .page-devices #main-wrapper .container-fluid .block-system .page-tools .view-content .views-row h2, .page-tools .view-content .views-row .page-devices #main-wrapper .container-fluid .block-system h2, .page-hardware #main-wrapper .container-fluid .block-system h4, .page-hardware #main-wrapper .container-fluid .block-system article.node-enabler h2, article.node-enabler .page-hardware #main-wrapper .container-fluid .block-system h2, .page-hardware #main-wrapper .container-fluid .block-system article.node-bundle h2, article.node-bundle .page-hardware #main-wrapper .container-fluid .block-system h2, .page-hardware #main-wrapper .container-fluid .block-system .page-tools .view-content .views-row h2, .page-tools .view-content .views-row .page-hardware #main-wrapper .container-fluid .block-system h2 {
   padding: 15px 0;
 }
-/* line 25, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
+/* line 30, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
 .page-node #main-wrapper .container-fluid .block-system .outs, .page-devices #main-wrapper .container-fluid .block-system .outs, .page-hardware #main-wrapper .container-fluid .block-system .outs {
   width: 462px;
   margin: 0 auto;
@@ -15288,24 +15294,44 @@ p.corporate {
   padding-top: 50px;
   text-align: center;
 }
-/* line 32, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
+/* line 37, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
 .page-node #main-wrapper .container-fluid .block-system .btnabout, .page-devices #main-wrapper .container-fluid .block-system .btnabout, .page-hardware #main-wrapper .container-fluid .block-system .btnabout {
   width: 183px;
   margin: 0 auto;
   padding-top: 50px;
   cursor: pointer;
 }
-/* line 42, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
+/* line 47, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
 .page-node #main-wrapper .container-fluid .block-system .node-device .content .field-name-field-api-icon .field-items, .page-node #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-field-api-icon .field-items, .page-devices #main-wrapper .container-fluid .block-system .node-device .content .field-name-field-api-icon .field-items, .page-devices #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-field-api-icon .field-items, .page-hardware #main-wrapper .container-fluid .block-system .node-device .content .field-name-field-api-icon .field-items, .page-hardware #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-field-api-icon .field-items {
   float: left;
 }
-/* line 47, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
+/* line 52, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
+.page-node #main-wrapper .container-fluid .block-system .node-device .content .field-name-body, .page-node #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body, .page-devices #main-wrapper .container-fluid .block-system .node-device .content .field-name-body, .page-devices #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body, .page-hardware #main-wrapper .container-fluid .block-system .node-device .content .field-name-body, .page-hardware #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body {
+  margin-top: 20px;
+}
+/* line 54, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
+.page-node #main-wrapper .container-fluid .block-system .node-device .content .field-name-body h4, .page-node #main-wrapper .container-fluid .block-system .node-device .content .field-name-body article.node-enabler h2, article.node-enabler .page-node #main-wrapper .container-fluid .block-system .node-device .content .field-name-body h2, .page-node #main-wrapper .container-fluid .block-system .node-device .content .field-name-body article.node-bundle h2, article.node-bundle .page-node #main-wrapper .container-fluid .block-system .node-device .content .field-name-body h2, .page-node #main-wrapper .container-fluid .block-system .node-device .content .field-name-body .page-tools .view-content .views-row h2, .page-tools .view-content .views-row .page-node #main-wrapper .container-fluid .block-system .node-device .content .field-name-body h2, .page-node #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body h4, .page-node #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body article.node-enabler h2, article.node-enabler .page-node #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body h2, .page-node #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body article.node-bundle h2, article.node-bundle .page-node #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body h2, .page-node #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body .page-tools .view-content .views-row h2, .page-tools .view-content .views-row .page-node #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body h2, .page-devices #main-wrapper .container-fluid .block-system .node-device .content .field-name-body h4, .page-devices #main-wrapper .container-fluid .block-system .node-device .content .field-name-body article.node-enabler h2, article.node-enabler .page-devices #main-wrapper .container-fluid .block-system .node-device .content .field-name-body h2, .page-devices #main-wrapper .container-fluid .block-system .node-device .content .field-name-body article.node-bundle h2, article.node-bundle .page-devices #main-wrapper .container-fluid .block-system .node-device .content .field-name-body h2, .page-devices #main-wrapper .container-fluid .block-system .node-device .content .field-name-body .page-tools .view-content .views-row h2, .page-tools .view-content .views-row .page-devices #main-wrapper .container-fluid .block-system .node-device .content .field-name-body h2, .page-devices #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body h4, .page-devices #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body article.node-enabler h2, article.node-enabler .page-devices #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body h2, .page-devices #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body article.node-bundle h2, article.node-bundle .page-devices #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body h2, .page-devices #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body .page-tools .view-content .views-row h2, .page-tools .view-content .views-row .page-devices #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body h2, .page-hardware #main-wrapper .container-fluid .block-system .node-device .content .field-name-body h4, .page-hardware #main-wrapper .container-fluid .block-system .node-device .content .field-name-body article.node-enabler h2, article.node-enabler .page-hardware #main-wrapper .container-fluid .block-system .node-device .content .field-name-body h2, .page-hardware #main-wrapper .container-fluid .block-system .node-device .content .field-name-body article.node-bundle h2, article.node-bundle .page-hardware #main-wrapper .container-fluid .block-system .node-device .content .field-name-body h2, .page-hardware #main-wrapper .container-fluid .block-system .node-device .content .field-name-body .page-tools .view-content .views-row h2, .page-tools .view-content .views-row .page-hardware #main-wrapper .container-fluid .block-system .node-device .content .field-name-body h2, .page-hardware #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body h4, .page-hardware #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body article.node-enabler h2, article.node-enabler .page-hardware #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body h2, .page-hardware #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body article.node-bundle h2, article.node-bundle .page-hardware #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body h2, .page-hardware #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body .page-tools .view-content .views-row h2, .page-tools .view-content .views-row .page-hardware #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body h2 {
+  padding: 5px 100px;
+}
+/* line 57, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
 .page-node #main-wrapper .container-fluid .block-system .node-device .content .field-name-body .texto, .page-node #main-wrapper .container-fluid .block-system .node-device .content .field-name-body h5, .page-node #main-wrapper .container-fluid .block-system .node-device .content .field-name-body .modulo, .page-node #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body .texto, .page-node #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body h5, .page-node #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body .modulo, .page-devices #main-wrapper .container-fluid .block-system .node-device .content .field-name-body .texto, .page-devices #main-wrapper .container-fluid .block-system .node-device .content .field-name-body h5, .page-devices #main-wrapper .container-fluid .block-system .node-device .content .field-name-body .modulo, .page-devices #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body .texto, .page-devices #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body h5, .page-devices #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body .modulo, .page-hardware #main-wrapper .container-fluid .block-system .node-device .content .field-name-body .texto, .page-hardware #main-wrapper .container-fluid .block-system .node-device .content .field-name-body h5, .page-hardware #main-wrapper .container-fluid .block-system .node-device .content .field-name-body .modulo, .page-hardware #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body .texto, .page-hardware #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body h5, .page-hardware #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body .modulo {
   padding: 0 0 0 100px;
 }
-/* line 50, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
+/* line 60, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
 .page-node #main-wrapper .container-fluid .block-system .node-device .content .field-name-body .texto, .page-node #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body .texto, .page-devices #main-wrapper .container-fluid .block-system .node-device .content .field-name-body .texto, .page-devices #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body .texto, .page-hardware #main-wrapper .container-fluid .block-system .node-device .content .field-name-body .texto, .page-hardware #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body .texto {
   max-width: 700px;
+  min-height: 60px;
+}
+/* line 64, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
+.page-node #main-wrapper .container-fluid .block-system .node-device .content .field-name-body .modulo, .page-node #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body .modulo, .page-devices #main-wrapper .container-fluid .block-system .node-device .content .field-name-body .modulo, .page-devices #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body .modulo, .page-hardware #main-wrapper .container-fluid .block-system .node-device .content .field-name-body .modulo, .page-hardware #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body .modulo {
+  float: left;
+  text-align: center;
+  max-width: 250px;
+}
+/* line 68, ../scss/FIWARE-Catalogue/pages/_iot_ready.scss */
+.page-node #main-wrapper .container-fluid .block-system .node-device .content .field-name-body .modulo a, .page-node #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body .modulo a, .page-devices #main-wrapper .container-fluid .block-system .node-device .content .field-name-body .modulo a, .page-devices #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body .modulo a, .page-hardware #main-wrapper .container-fluid .block-system .node-device .content .field-name-body .modulo a, .page-hardware #main-wrapper .container-fluid .block-system .node-hardware .content .field-name-body .modulo a {
+  display: inherit;
+  padding: 5px;
 }
 
 /****************************** ENABLERS */

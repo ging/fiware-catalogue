@@ -9,6 +9,11 @@
             display: inline-block;
             padding: 10px;
           }
+          @media (max-width: 768px) {
+            li{
+              display: block;
+            }
+          }
           li.active-trail{
             border-bottom: 3px solid $brand-secundary;
             a{
@@ -43,12 +48,27 @@
                 float: left;
               }
             }
+
             .field-name-body{
+              margin-top: 20px;
+              h4{
+                padding: 5px 100px;
+              }
               .texto, h5, .modulo{
                 padding: 0 0 0 100px;
               }
               .texto{
                 max-width: 700px;
+                min-height: 60px;
+              }
+              .modulo{
+                float: left;
+                text-align: center;
+                max-width: 250px;
+                a{
+                  display: inherit;
+                  padding: 5px;
+                }
               }
             }
           }
