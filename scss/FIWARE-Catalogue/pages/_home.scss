@@ -70,9 +70,8 @@
         padding: 10px 15px;
       }
       @media (max-width: $screen-md) {
-        font-size: 1.8em;
+        font-size: 1.7em;
         padding: 5px 15px;
-
       }
 
       .bt_txt{
@@ -98,6 +97,35 @@
         margin: 0;
       }
     }
+    .txt_whatsnew{
+      text-align: right;
+      h4{
+        font-size: 1.5em;
+        float: right;
+      }
+      .whatsnew{
+        float: right;
+        .whatsnew_img{
+          height: 130px;
+          width: 130px;
+          margin: -40px 0 -40px 15px;
+        }
+      }
+      @media (max-width: $screen-md) {
+        text-align: center;
+        margin: 20px 0 10px;
+        h4{
+          float: none;
+        }
+        .whatsnew{
+          float: none;
+          .whatsnew_img{
+            margin: 0 0 10px;
+          }
+        }
+      }
+    }
+
   }
   @media (max-width: $screen-sm-min){
     img{
