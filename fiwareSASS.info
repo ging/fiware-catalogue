@@ -14,6 +14,7 @@ regions[footer]         = 'Footer'
 
 scripts[] = js/search.js
 scripts[] = js/icons.js
+scripts[] = js/script.js
 
 stylesheets[all][] = css/main.css
 
